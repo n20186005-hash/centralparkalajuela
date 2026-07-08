@@ -23,7 +23,7 @@
     "title": "Explora el Parque Central de Alajuela",
     "description": "El Parque Central de Alajuela se encuentra en el corazón de la ciudad de Alajuela, Provincia de Alajuela, Costa Rica. Es un hermoso parque urbano e ideal para que los residentes locales y los turistas se relajen y disfruten. Rodeado de hermosos paisajes y una ubicación privilegiada, es un excelente lugar para experimentar la cultura local de Alajuela y su alta calidad de vida.",
     "visitGuide": {
-      "title": "Consejos de Visita",
+      "title": "Itinerario de un Día en el Parque Central de Alajuela",
       "items": [
         "El parque está abierto las 24 horas del día, 7 días de la semana",
         "Se recomienda usar calzado cómodo para caminar",
@@ -32,7 +32,7 @@
       ]
     },
     "alsoKnownAs": {
-      "title": "Destacados",
+      "title": "Tres Imprescindibles del Parque Central de Alajuela",
       "items": [
         "Ubicación Privilegiada: Ubicado en el corazón de la ciudad de Alajuela con transporte conveniente, es un lugar importante para el entretenimiento y recreación de los residentes locales.",
         "Ricas Actividades Culturales: El área alrededor del parque a menudo organiza varios eventos culturales y festivales, lo que lo convierte en un gran lugar para experimentar la cultura local.",
@@ -63,7 +63,7 @@
       {
         "time": "12:00 PM",
         "icon": "🍽️",
-        "description": "Camine hasta el Mercado Central a dos cuadras de distancia para probar la auténtica comida costarricense (Casado)."
+        "description": "Camine hasta el Mercado Central a dos cuadras de distancia para probar la auténtica comida costarricense (Casado); busque un 'soda' tradicional del mercado y pida un Casado con arroz, frijoles y patacones."
       }
     ],
     "supplementsTitle": "Consejos Adicionales de Visita",
@@ -74,22 +74,22 @@
     ]
   },
   "knowledge": {
-    "title": "Descubre el Encanto del Parque Central de Alajuela",
+    "title": "Enciclopedia del Parque Central de Alajuela: Historia, Cultura y Ecología",
     "sections": [
       {
         "id": "history",
-        "title": "Importancia Histórica",
-        "content": "El Parque Natural Cerro Verde es un importante hito de protección natural y ecoturismo en El Salvador y ha sido un lugar de ocio favorito para los residentes locales y turistas durante mucho tiempo."
+        "title": "Importancia Histórica: De la Plaza de Armas al Oasis Urbano",
+        "content": "El predecesor del parque fue la 'Plaza de Armas' de la época fundacional de 1782. El embellecimiento urbano de finales del siglo XIX lo transformó en un espacio público frondoso y dejó el icónico quiosco octogonal central (Kiosk): el hito urbano más recognizable de Alajuela."
       },
       {
-        "id": "nature",
-        "title": "Paisaje Natural",
-        "content": "Cuenta con vistas espectaculares de montaña y rica vegetación, siendo un lugar excelente para experimentar la belleza natural de El Salvador."
+        "id": "culture",
+        "title": "Paisaje Cultural: El Corazón Verde de la 'Ciudad de los Mangos'",
+        "content": "Alajuela es celebrada como la 'Ciudad de los Mangos' (Ciudad de los Mangos). El parque está lleno de mangos centenarios y cada junio–julio la 'Feria del Mango' lo convierte en el escenario central del folclore ciudadano."
       },
       {
         "id": "experience",
-        "title": "Experiencia de Visita",
-        "content": "Pasear por el Parque Natural Cerro Verde, sentir el fresco clima de montaña y el magnífico paisaje natural, es una experiencia inolvidable de naturaleza."
+        "title": "Experiencia de Visita: Un Teatro de Vida Silvestre en la Ciudad",
+        "content": "Iguanas verdes forrajeando bajo el dosel, el ocasional perezoso y cientos de pericos frentirrojos al anochecer convierten a este parque céntrico —a minutos de un aeropuerto internacional— en un microecosistema urbano raro en el mundo."
       }
     ]
   },
@@ -261,6 +261,18 @@
         "name": "Gobierno Municipal de Alajuela",
         "url": "https://www.munialajuela.go.cr/"
       },
+      "museosantamaria": {
+        "name": "Museo Histórico Cultural Juan Santamaría",
+        "url": "https://museojuansantamaria.go.cr"
+      },
+      "ict": {
+        "name": "Instituto Costarricense de Turismo (ICT)",
+        "url": "https://www.ict.go.cr"
+      },
+      "ucrbiologia": {
+        "name": "Escuela de Biología, Universidad de Costa Rica",
+        "url": "https://www.biologia.ucr.ac.cr"
+      },
       "presidencia": {
         "name": "Presidencia de la República de Costa Rica",
         "url": "https://www.presidencia.go.cr/"
@@ -375,28 +387,108 @@
     "text": "El Parque Central de Alajuela no es solo el centro geográfico de la ciudad, sino también su latido cultural. Alajuela es conocida como la \"Ciudad de los Mangos\", y este parque está lleno de exuberantes árboles de mango centenarios. Aquí, no solo puede disfrutar de la belleza del clásico quiosco central y la fuente, sino también experimentar de cerca la rica ecología de Costa Rica: observe de cerca el dosel y a menudo podrá ver iguanas tranquilas, ardillas e incluso algún perezoso visitante ocasional.\n\nCombinado con la majestuosa Catedral de Alajuela (Catedral de la Virgen del Pilar) y el Museo Histórico Cultural Juan Santamaría en los alrededores, este es el mejor punto de partida para experimentar el auténtico sabor costarricense (Pura Vida) y su historia nacional. Además, al estar a solo 5-10 minutos en coche del Aeropuerto Internacional SJO, se ha convertido en la primera parada para innumerables turistas internacionales que llegan a Costa Rica."
   },
   "historyTimeline": {
-    "title": "Cronología Histórica",
+    "title": "Historia del Parque Central de Alajuela",
     "items": [
       {
-        "year": "Período Inicial",
-        "title": "Período Inicial: Espacio Urbano",
-        "plaque": "Parque Urbano (Espacio Verde)",
-        "description": "Central Park Alajuela ha sido considerado durante mucho tiempo como un importante espacio verde en el corazón de la ciudad de Alajuela y un lugar importante para el ocio y entretenimiento de los residentes locales."
+        "year": "1782",
+        "title": "Época Fundacional: La Polvorienta 'Plaza de Armas'",
+        "plaque": "Plaza de Armas",
+        "description": "Cuando se fundó Alajuela, el actual parque lleno de árboles era una polvorienta 'Plaza de Armas' utilizada para desfiles militares, mercados y reuniones públicas: el primer espacio público de la ciudad."
       },
       {
-        "year": "Siglo XX",
-        "title": "Siglo XX: Desarrollo Urbano",
-        "plaque": "Desarrollo Urbano (Construcción del Parque)",
-        "description": "Con la urbanización de Alajuela, Central Park se convirtió gradualmente en un importante espacio público en el centro de la ciudad, con edificios icónicos como la Catedral construidos cercanos."
+        "year": "c. 1890s",
+        "title": "Campaña de Embellecimiento y el Quiosco Octogonal",
+        "plaque": "Embellecimiento Urbano (estilo Renacentista)",
+        "description": "Influenciada por el liberalismo y la modernización europeos, la municipalidad plantó mangos en toda la plaza y construyó el icónico quiosco central octogonal con cúpula. Los senderos radiantes convertían el dosel en una cúpula natural, convirtiendo al parque en un oasis contra el calor tropical."
       },
       {
-        "year": "Siglo XXI",
-        "title": "Siglo XXI: Destino Turístico Cultural",
-        "plaque": "Hito Cultural (Desarrollo Turístico)",
-        "description": "En el siglo XXI, con su ubiación geográfica superior y hermoso ambiente, ha atraído a una gran cantidad de turistas y se ha convertido en una importante carta de presentación para el turismo cultural de Alajuela."
+        "year": "Mediados del s. XX",
+        "title": "Héroe Nacional e Hitos Cívicos",
+        "plaque": "Juan Santamaría",
+        "description": "Siendo la ciudad natal del héroe nacional de Costa Rica, Juan Santamaría, Alajuela convirtió el entorno del parque en su núcleo cultural. El adyacente Museo Histórico Cultural Juan Santamaría recoge el profundo vínculo entre el héroe y la ciudad."
+      },
+      {
+        "year": "s. XXI",
+        "title": "Destino de Turismo Cultural para Visitantes",
+        "plaque": "Hito Cultural (Turismo)",
+        "description": "Gracias a su ubicación inmejorable —solo 5-10 minutos en auto del Aeropuerto Internacional SJO— sumada a sus mangos centenarios y su vida silvestre urbana, el parque se ha convertido en la primera parada en Costa Rica para innumerables viajeros internacionales."
       }
     ],
     "guideTitle": "Consejo de Guía para Visitantes",
-    "guideContent": "Al visitar, puede comenzar ingresando por la entrada principal y admirando los espacios de ocio sombreados por árboles verdes; luego visite edificios históricos cercanos como la Catedral de Alajuela; si tiene suficiente tiempo, puede caminar a museos históricos y atracciones culturales cercanas. Finalmente, disfrute de la comida en cafeterías o restaurantes cercanos y sienta el relajado ritmo de vida de Alajuela."
+    "guideContent": "Ingrese por la entrada principal y admire primero el quiosco octogonal y la fuente; luego visite la **Catedral de Alajuela** y el **Museo Juan Santamaría**; si tiene tiempo, camine dos cuadras hasta el **Mercado Central** para un auténtico Casado. Quédese al anochecer para presenciar el espectacular dormir de los pericos."
+  },
+  "legends": {
+    "title": "Datos Curiosos: El Vínculo Centenario de Alajuela con la 'Ciudad de los Mangos'",
+    "intro": "El apodo 'Ciudad de los Mangos' (Ciudad de los Mangos) no es casualidad: es una historia escrita por la geografía, el microclima y la memoria colectiva.",
+    "items": [
+      {
+        "title": "Código Climático: Un Microclima Subtropical a ~950 m",
+        "text": "Alajuela se ubica ligeramente más baja que la capital San José (unos 950 m), con estación seca/lluviosa marcada y clima cálido que da al mango asiático (Mangifera indica) un hogar casi perfecto, convirtiéndolo en el hito botánico más recognizable de la ciudad."
+      },
+      {
+        "title": "Evolución Espacial: De la 'Plaza de Armas' a un Oasis Renacentista",
+        "text": "A finales del siglo XIX, inspirada por el liberalismo y la modernización europeos, la municipalidad plantó los mangos —hoy gigantes milenarios— por toda la plaza y construyó el icónico quiosco octogonal con cúpula."
+      },
+      {
+        "title": "Feria del Mango: Una Fiesta Ciudadana, Junio–Julio",
+        "text": "Cada junio–julio, durante la cosecha del mango, el parque y las calles circundantes se transforman en un centro de exposición folclórica que acoge la tradicional 'Feria del Mango', mostrando las variedades locales y la cultura gastronómica."
+      },
+      {
+        "title": "Forma Local de Comer: Mango Verde con Salsa Lizano",
+        "text": "Los lugareños no prefieren el mango maduro y dulce, sino el mango verde firme e inmaduro. En tiras, con sal, un chorro de lima y a veces la característica salsa Lizano de Costa Rica: un recuerdo de infancia compartido por todo alajuelense criado bajo los mangos."
+      },
+      {
+        "title": "Vínculo con un Héroe Nacional: Juan Santamaría",
+        "text": "Alajuela es la ciudad natal del héroe nacional de Costa Rica, Juan Santamaría. Un museo en su honor se alza en el centro, haciendo del parque no solo un oasis de ocio, sino también un ancla de la memoria patriótica cívica."
+      }
+    ]
+  },
+  "wildlife": {
+    "title": "Guía de Avistamiento de Vida Silvestre",
+    "intro": "Un parque céntrico a minutos de un aeropuerto internacional que alberga una comunidad de vida silvestre tan densa es extremadamente raro entre los parques urbanos del mundo. Aquí está dónde y cuándo es más probable encontrarlos:",
+    "items": [
+      {
+        "name": "Pericos Frentirrojos (Pericos)",
+        "sci": "Psittacara finschi",
+        "text": "Cada atardecer, cientos de pericos frentirrojos silvestres vuelan desde todas direcciones para dormir en el dosel de mangos. Su estruendoso coro se ha convertido en el 'ruido blanco natural' más famoso del centro.",
+        "bestTime": "Al atardecer"
+      },
+      {
+        "name": "Perezosos",
+        "sci": "Perezoso de dos dedos / de Hoffmann",
+        "text": "Los gruesos troncos de mango y el follaje denso dan a los perezosos silvestres un camuflaje y hábitat perfectos. Se mueven lento y suelen colgar boca abajo en lo alto del dosel, requiriendo observación paciente.",
+        "bestTime": "Mañana temprano y media mañana"
+      },
+      {
+        "name": "Iguanas Verdes",
+        "sci": "Iguana iguana",
+        "text": "Grupos de iguanas verdes habitan el parque todo el año, tomando el sol al mediodía en las ramas bajas de mango o en los históricos bancos de piedra: los reptiles más fáciles de avistar.",
+        "bestTime": "Mediodía, con pleno sol"
+      }
+    ],
+    "tip": "Consejos de observación: mantenga silencio y distancia; no alimente ni toque la vida silvestre. Los mejores puntos son el dosel de mangos y los bancos de piedra alrededor del quiosco central."
+  },
+  "layover": {
+    "title": "Guía de Escala en el Aeropuerto SJO",
+    "intro": "Muchos viajeros internacionales buscan 'qué hacer cerca del aeropuerto SJO'. El Parque Central de Alajuela está a solo 5-10 minutos en auto del Aeropuerto Internacional Juan Santamaría: el respiro perfecto entre vuelos.",
+    "items": [
+      {
+        "title": "Presupuesto de Tiempo: 2-3 Horas es Ideal",
+        "text": "Con una escala de 3-5 horas, reserve unos 30 minutos para el traslado y podrá pasear 1-2 horas por el parque, luego visitar la catedral o tomar un café local con calma."
+      },
+      {
+        "title": "Cómo Llegar: Taxi o Aplicación",
+        "text": "Un taxi o aplicación (Uber/Didi) desde SJO hasta el parque toma solo 5-10 minutos: bajo costo, comunicación simple, ideal para pasajeros en tránsito."
+      },
+      {
+        "title": "Viaje Ligero: ¿Qué Hacer con el Equipaje?",
+        "text": "El parque es gratuito y no requiere boleto: vaya ligero. Si lleva equipaje grande, pida al conductor que espere brevemente en la entrada, o guárdelo en el aeropuerto y venga sin carga."
+      },
+      {
+        "title": "Imprescindible en Escala: Mangos Centenarios y el Quiosco",
+        "text": "Incluso con solo una hora, vale la pena detenerse en el quiosco octogonal y mirar hacia arriba, al dosel de mangos centenarios: podría avistar un perezoso o una bandada de pericos dormilones en las ramas."
+      }
+    ],
+    "cta": "Convierta esa espera en la primera sorpresa de su viaje por Costa Rica: haga del Parque Central de Alajuela su primera parada al bajar del avión."
   }
 }

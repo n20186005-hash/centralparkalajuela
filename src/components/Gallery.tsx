@@ -32,7 +32,7 @@ export default function Gallery() {
 
   const photos = photoFiles.map((file, i) => ({
     src: `/gallery/${file}`,
-    alt: captions?.[i] || `Parque Natural Cerro Verde ${i + 1}`,
+    alt: captions?.[i] || `Parque Central de Alajuela ${i + 1}`,
   }));
 
   const visiblePhotos = photos;

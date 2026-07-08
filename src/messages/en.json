@@ -23,7 +23,7 @@
     "title": "Explore Central Park Alajuela",
     "description": "Central Park Alajuela is located in the heart of Alajuela city, Alajuela Province, Costa Rica. It is a beautiful urban park and an ideal place for local residents and tourists to relax and unwind. Surrounded by beautiful scenery andexcellent geographical location, it is an excellent place to experience Alajuela's local culture and high quality of life.",
     "visitGuide": {
-      "title": "Visiting Tips",
+      "title": "Alajuela Central Park One-Day Itinerary",
       "items": [
         "Park is open 24 hours a day, 7 days a week",
         "Comfortable walking shoes are recommended",
@@ -32,7 +32,7 @@
       ]
     },
     "alsoKnownAs": {
-      "title": "Highlights",
+      "title": "Three Must-See Highlights of Alajuela Central Park",
       "items": [
         "Prime Location: Located in the heart of Alajuela city with convenient transportation, it is an important place for local residents' recreation and entertainment.",
         "Rich Cultural Activities: The area around the park often hosts various cultural events and festivals, making it a great place to experience local culture.",
@@ -63,7 +63,7 @@
       {
         "time": "12:00 PM",
         "icon": "🍽️",
-        "description": "Walk to the Central Market (Mercado Central) two blocks away to taste authentic Costa Rican food (Casado)."
+        "description": "Walk to the Central Market (Mercado Central) two blocks away to taste authentic Costa Rican food (Casado) — look for a traditional 'soda' stall in the market and order a Casado with rice, beans and fried plantains (patacones)."
       }
     ],
     "supplementsTitle": "Additional Tour Tips",
@@ -74,22 +74,22 @@
     ]
   },
   "knowledge": {
-    "title": "Discover the Charm of Central Park Alajuela",
+    "title": "Alajuela Central Park Encyclopedia: History, Culture & Ecology",
     "sections": [
       {
         "id": "history",
-        "title": "Historical Significance",
-        "content": "Central Park Alajuela is an important urban space and social landmark in Alajuela, and has long been a favorite leisure place for local residents and tourists."
+        "title": "Historical Significance: From Plaza de Armas to Urban Oasis",
+        "content": "The park's predecessor was the 'Plaza de Armas' of the 1782 founding era. The late-19th-century urban beautification transformed it into a leafy public space and left the iconic central octagonal kiosk (Kiosk) — Alajuela's most recognizable urban landmark."
       },
       {
         "id": "culture",
-        "title": "Cultural Landscape",
-        "content": "It features beautiful green environments and rich cultural activities, making it an excellent place to experience Alajuela's urban culture and lifestyle."
+        "title": "Cultural Landscape: The Green Heart of the 'City of Mangoes'",
+        "content": "Alajuela is celebrated as the 'City of Mangoes' (Ciudad de los Mangos). The park is filled with century-old mango trees, and every June–July the 'Mango Festival' (Feria del Mango) turns it into the center stage of the city's folk culture."
       },
       {
         "id": "experience",
-        "title": "Visiting Experience",
-        "content": "Strolling through Central Park Alajuela, feeling Costa Rica's relaxed lifestyle and beautiful urban scenery, is an unforgettable cultural experience."
+        "title": "Visiting Experience: A Wildlife Theater in the City",
+        "content": "Green iguanas foraging under the canopy, the occasional sloth, and hundreds of red-fronted parakeets roosting at dusk make this downtown park — minutes from an international airport — a rare urban micro-ecosystem worldwide."
       }
     ]
   },
@@ -261,6 +261,18 @@
         "name": "Alajuela Municipal Government",
         "url": "https://www.munialajuela.go.cr/"
       },
+      "museosantamaria": {
+        "name": "Juan Santamaría Historical & Cultural Museum",
+        "url": "https://museojuansantamaria.go.cr"
+      },
+      "ict": {
+        "name": "Costa Rica Tourism Board (ICT)",
+        "url": "https://www.ict.go.cr"
+      },
+      "ucrbiologia": {
+        "name": "School of Biology, University of Costa Rica",
+        "url": "https://www.biologia.ucr.ac.cr"
+      },
       "presidencia": {
         "name": "Presidency of Costa Rica",
         "url": "https://www.presidencia.go.cr/"
@@ -375,28 +387,108 @@
     "text": "Parque Central de Alajuela is not only the geographic center of the city but also its cultural heartbeat. Alajuela is known as the \"City of Mangoes\" (Ciudad de los Mangos), and this park is filled with lush century-old mango trees. Here, you can not only enjoy the beauty of the classic central kiosk and fountain but also experience Costa Rica's rich ecology up close—look closely at the canopy, and you can often spot leisurely iguanas, squirrels, and even the occasional visiting sloth.\n\nCombined with the majestic Alajuela Cathedral (Catedral de la Virgen del Pilar) and the Juan Santamaría Historical and Cultural Museum nearby, this is the best starting point to experience authentic Costa Rican flavor (Pura Vida) and its national history. Moreover, being only a 5-10 minute drive from the SJO International Airport, it has become the first stop for countless international tourists arriving in Costa Rica."
   },
   "historyTimeline": {
-    "title": "Historical Timeline",
+    "title": "History of Alajuela Central Park",
     "items": [
       {
-        "year": "Early Period",
-        "title": "Early Period: Urban Green Space",
-        "plaque": "Urban Park (Green Space)",
-        "description": "Central Park Alajuela has long been regarded as an important green space in the heart of Alajuela city and an important place for local residents' leisure and entertainment."
+        "year": "1782",
+        "title": "Founding Era: The Dusty 'Plaza de Armas'",
+        "plaque": "Plaza de Armas (Weapons' Square)",
+        "description": "When Alajuela was founded, the site of today's leafy Central Park was a dusty 'Plaza de Armas' (Weapons' Square) used for military parades, markets and public gatherings — the city's earliest public space."
       },
       {
-        "year": "20th Century",
-        "title": "20th Century: Urban Development",
-        "plaque": "Urban Development (Park Construction)",
-        "description": "With the urbanization of Alajuela, Central Park gradually became an important public space in the city center, with landmark buildings like the Cathedral built nearby."
+        "year": "c. 1890s",
+        "title": "Beautification Drive & the Octagonal Kiosk",
+        "plaque": "Urban Beautification (Renaissance-style)",
+        "description": "Influenced by European liberalism and modernization, the municipality planted mango trees around the square on a large scale and built the iconic central octagonal domed kiosk (Kiosk). Radiating paths cut the canopy into a natural dome, turning the park into an oasis against the tropical heat."
+      },
+      {
+        "year": "Mid-20th Century",
+        "title": "National Hero & Civic Landmark",
+        "plaque": "Juan Santamaría",
+        "description": "As the hometown of Costa Rica's national hero Juan Santamaría, Alajuela shaped the area around the park into its cultural core. The adjacent Juan Santamaría Historical and Cultural Museum records the deep bond between this hero and the city."
       },
       {
         "year": "21st Century",
-        "title": "21st Century: Cultural Tourism Destination",
-        "plaque": "Cultural Landmark (Tourism Development)",
-        "description": "In the 21st century, with its superior geographical location and beautiful environment, it has attracted a large number of tourists and become an important calling card for Alajuela's cultural tourism."
+        "title": "A Cultural Tourism Destination for Visitors",
+        "plaque": "Cultural Landmark (Tourism)",
+        "description": "Thanks to its unbeatable location — only 5-10 minutes by car from SJO International Airport — plus its century-old mango trees and urban wildlife, the park has become the first stop in Costa Rica for countless international travelers."
       }
     ],
     "guideTitle": "Visitor Guide Tip",
-    "guideContent": "When visiting, you can start by entering from the main entrance and admiring the leisure spaces shaded by green trees; then visit nearby historical buildings like Alajuela Cathedral; if you have enough time, you can walk to nearby historical museums and cultural attractions. Finally, enjoy food in nearby cafes or restaurants and feel the relaxed pace of life in Alajuela."
+    "guideContent": "Enter from the main entrance and admire the central octagonal kiosk and fountain first; then visit the **Alajuela Cathedral** and the **Juan Santamaría Museum**; if time allows, stroll two blocks to the **Central Market (Mercado Central)** for an authentic Casado. Stay in the park at dusk to witness the spectacular roosting of the red-fronted parakeets."
+  },
+  "legends": {
+    "title": "Fun Facts: Alajuela's Century-Long Bond with the 'City of Mangoes'",
+    "intro": "The nickname 'City of Mangoes' (Ciudad de los Mangos) is no accident — it is a story written by geography, microclimate and collective memory.",
+    "items": [
+      {
+        "title": "Climate Code: A Subtropical Microclimate at ~950 m",
+        "text": "Alajuela sits slightly lower than the capital San José (about 950 m), with a distinct dry/wet season and warm climate that gives the Asian mango tree (Mangifera indica) a near-perfect home, making mango the city's most recognizable botanical landmark."
+      },
+      {
+        "title": "Spatial Evolution: From 'Plaza de Armas' to a Renaissance Oasis",
+        "text": "In the late 19th century, inspired by European liberalism and modernization, the municipality planted the mango trees — now towering giants — across the square and built the iconic octagonal domed kiosk (Kiosk)."
+      },
+      {
+        "title": "Mango Festival (Feria del Mango): A City Feast, June–July",
+        "text": "Every June–July during the mango harvest, the park and surrounding streets transform into a folk-exhibition hub hosting the traditional 'Mango Festival', showcasing local mango varieties and food culture."
+      },
+      {
+        "title": "Local Way to Eat: Green Mango (Mango Verde) with Lizano Sauce",
+        "text": "Locals prefer not the ripe sweet mango but the firm, unripe green mango. Sliced, salted, with a squeeze of lime and sometimes Costa Rica's signature Lizano sauce — a childhood memory shared by every Alajuelense who grew up under the mango trees."
+      },
+      {
+        "title": "Ties to a National Hero: Juan Santamaría",
+        "text": "Alajuela is the hometown of Costa Rica's national hero Juan Santamaría. A museum in his honor stands in the city center, making the park not only a leisure oasis but also an anchor of civic patriotic memory."
+      }
+    ]
+  },
+  "wildlife": {
+    "title": "Wildlife Spotting Guide",
+    "intro": "A downtown park just minutes from an international airport hosting such a dense wildlife community is extremely rare among city parks worldwide. Here is where and when you are most likely to meet them:",
+    "items": [
+      {
+        "name": "Red-fronted Parakeets (Pericos)",
+        "sci": "Psittacara finschi",
+        "text": "Every sunset, hundreds of wild red-fronted parakeets fly back from all directions to roost in the mango canopy. Their deafening chorus has become the city center's most famous 'natural white noise'.",
+        "bestTime": "Around sunset"
+      },
+      {
+        "name": "Sloths (Perezosos)",
+        "sci": "Two-toed / Hoffmann's sloth",
+        "text": "The thick mango trunks and dense foliage give wild sloths perfect camouflage and habitat. They move slowly and often hang upside-down high in the canopy, requiring patient observation.",
+        "bestTime": "Early morning & late morning"
+      },
+      {
+        "name": "Green Iguanas (Iguanas verdes)",
+        "sci": "Iguana iguana",
+        "text": "Groups of green iguanas dwell in the park year-round, basking on low-hanging mango branches or the historic stone benches at noon — the easiest reptiles to spot.",
+        "bestTime": "Midday, in full sun"
+      }
+    ],
+    "tip": "Observation tips: keep quiet and keep your distance; do not feed or touch the wildlife. The best vantage points are the mango canopy and stone benches around the central kiosk."
+  },
+  "layover": {
+    "title": "SJO Airport Layover Guide",
+    "intro": "Many international travelers search for 'things to do near SJO airport'. Alajuela Central Park is only a 5-10 minute drive from Juan Santamaría International Airport — the perfect breather between flights.",
+    "items": [
+      {
+        "title": "Time Budget: 2-3 Hours Is Just Right",
+        "text": "With a 3-5 hour layover, reserve about 30 minutes for round-trip transit and you can stroll the park for 1-2 hours, then visit the cathedral or enjoy a local coffee at leisure."
+      },
+      {
+        "title": "Getting There: Taxi or Ride-Share",
+        "text": "A taxi or ride-share (Uber/Didi) from SJO to the park takes only 5-10 minutes — low cost, simple communication, ideal for transit passengers."
+      },
+      {
+        "title": "Traveling Light: What About Luggage",
+        "text": "The park is free and needs no ticket — just go light. If you have large luggage, ask the driver to wait briefly at the entrance, or store it at the airport and head over unencumbered."
+      },
+      {
+        "title": "Layover Must-See: Ancient Mango Trees & the Kiosk",
+        "text": "Even with just one hour, it's worth pausing at the octagonal kiosk and looking up at the century-old mango canopy — you might spot a sloth or a roosting flock of parakeets in the branches."
+      }
+    ],
+    "cta": "Turn that wait into the first surprise of your Costa Rica trip — make Central Park Alajuela your very first stop after landing."
   }
 }

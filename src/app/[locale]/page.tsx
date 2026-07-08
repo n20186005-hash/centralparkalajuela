@@ -4,10 +4,13 @@ import Hero from '@/components/Hero';
 import Intro from '@/components/Intro';
 import BasicInfo from '@/components/BasicInfo';
 import HistoryTimeline from '@/components/HistoryTimeline';
+import Legends from '@/components/Legends';
 import RouteSection from '@/components/RouteSection';
+import Wildlife from '@/components/Wildlife';
 import HoursSection from '@/components/HoursSection';
 import TicketsSection from '@/components/TicketsSection';
 import TransportSection from '@/components/TransportSection';
+import Layover from '@/components/Layover';
 import Gallery from '@/components/Gallery';
 import Reviews from '@/components/Reviews';
 import MapEmbed from '@/components/MapEmbed';
@@ -29,10 +32,13 @@ export default async function HomePage({
         <Intro />
         <BasicInfo />
         <HistoryTimeline />
+        <Legends />
         <RouteSection />
+        <Wildlife />
         <HoursSection />
         <TicketsSection />
         <TransportSection />
+        <Layover />
         <Gallery />
         <Reviews />
         <MapEmbed />
