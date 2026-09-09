@@ -1,0 +1,16 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "centralparkalajuela",
+  // Must be set to a wrangler-supported date no later than today.
+  "compatibility_date": "2026-09-09",
+  // Static export output of `next build` (output: 'export').
+  // No "main" script: this is a pure static-assets Worker, so Cloudflare
+  // serves /es, /es/, /index.html etc. directly from ./out — and crucially,
+  // wrangler will NOT run the Next.js/OpenNext auto-migration that breaks
+  // `output: 'export'` projects.
+  "assets": {
+    "directory": "./out",
+    "not_found_handling": "404-page",
+    "html_handling": "auto-trailing-slash"
+  }
+}
