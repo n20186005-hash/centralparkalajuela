@@ -20,18 +20,21 @@ export async function generateMetadata({
   const messages = (await import(`@/messages/${locale}.json`)).default;
   const baseUrl = SITE_URL;
 
-  const zhUrl = `${baseUrl}/zh`;
-  const enUrl = `${baseUrl}/en`;
-  const esUrl = `${baseUrl}/es`;
-
-  let selfUrl = zhUrl;
-  if (locale === 'en') selfUrl = enUrl;
-  else if (locale === 'es') selfUrl = esUrl;
+  // Per-locale absolute URLs for hreflang / canonical (kept in sync with routing).
+  const urlFor = (l: string) => `${baseUrl}/${l}`;
+  const selfUrl = urlFor(locale);
+  const languages: Record<string, string> = {
+    'x-default': urlFor(routing.defaultLocale),
+  };
+  routing.locales.forEach((l) => {
+    languages[l] = urlFor(l);
+  });
 
   const localeMap: Record<string, string> = {
     zh: 'zh_CN',
     en: 'en_US',
     es: 'es_MX',
+    fr: 'fr_FR',
   };
 
   const title = messages.meta?.title;
@@ -49,12 +52,7 @@ export async function generateMetadata({
     keywords,
     alternates: {
       canonical: selfUrl,
-      languages: {
-        zh: zhUrl,
-        en: enUrl,
-        es: esUrl,
-        'x-default': esUrl,
-      } as Record<string, string>,
+      languages,
     },
     openGraph: {
       title: ogTitle,
@@ -107,6 +105,7 @@ const jsonLd = {
     SITE.attractionFullName,
     SITE.attractionShortName,
     'Parque Central',
+    'Parc Central d\'Alajuela',
     '阿拉胡埃拉中央公园',
     'Ciudad de los Mangos',
   ],
@@ -207,6 +206,7 @@ export default async function LocaleLayout({
     zh: 'zh-CN',
     en: 'en',
     es: 'es',
+    fr: 'fr',
   };
 
   return (

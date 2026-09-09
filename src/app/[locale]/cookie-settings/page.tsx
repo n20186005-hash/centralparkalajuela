@@ -1,6 +1,8 @@
 import { setRequestLocale } from 'next-intl/server';
 import type { Metadata } from 'next';
 import CookieSettingsClient from './CookieSettingsClient';
+import { routing } from '@/i18n/routing';
+import { SITE } from '@/lib/site';
 
 export async function generateMetadata({
   params,
@@ -8,21 +10,20 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  const baseUrl = 'https://visitplazadelosmariachis.com';
-  const zhUrl = `${baseUrl}/zh/cookie-settings`;
-  const enUrl = `${baseUrl}/en/cookie-settings`;
-  const esUrl = `${baseUrl}/es/cookie-settings`;
-  const selfUrl = locale === 'zh' ? zhUrl : locale === 'en' ? enUrl : esUrl;
+  const baseUrl = SITE.url;
+  const pagePath = '/cookie-settings';
+  const urlFor = (l: string) => `${baseUrl}/${l}${pagePath}`;
+  const languages: Record<string, string> = {
+    'x-default': urlFor(routing.defaultLocale),
+  };
+  routing.locales.forEach((l) => {
+    languages[l] = urlFor(l);
+  });
 
   return {
     alternates: {
-      canonical: selfUrl,
-      languages: {
-        'zh': zhUrl,
-        'en': enUrl,
-        'es': esUrl,
-        'x-default': zhUrl,
-      },
+      canonical: urlFor(locale),
+      languages,
     },
   };
 }
