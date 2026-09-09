@@ -1,8 +1,9 @@
 import { useTranslations } from 'next-intl';
+import { SITE } from '@/lib/site';
 
 export default function MapEmbed() {
   const t = useTranslations('mapSection');
-  const mapsUrl = "https://maps.app.goo.gl/GimLtykHVTQRwsi38";
+  const mapsUrl = SITE.mapsShareUrl;
 
   return (
     <section id="map" className="section-padding" style={{ background: 'var(--bg-secondary)' }}>
@@ -26,14 +27,14 @@ export default function MapEmbed() {
             This is for visual cleanliness only. Google's Terms of Service apply.
           */}
           <iframe
-            src="https://maps.google.com/maps?q=Central+Park+Alajuela,+Costa+Rica&t=&z=15&ie=UTF8&iwloc=&output=embed"
+            src={SITE.mapsEmbedSrc}
             width="100%"
             height="450"
             style={{ border: 0 }}
             allowFullScreen
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            title="Google Maps - Central Park Alajuela"
+            title="Google Maps - Central Park Alajuela (Parque Central de Alajuela)"
           />
         </div>
 
@@ -57,6 +58,39 @@ export default function MapEmbed() {
               <line x1="10" y1="14" x2="21" y2="3" />
             </svg>
           </a>
+        </div>
+
+        {/* Authoritative tourism links (official .go.cr portals) */}
+        <div
+          className="mt-6 rounded-xl p-5 sm:p-6 text-center"
+          style={{ background: 'var(--bg-tertiary)', border: '1px solid var(--border-color)' }}
+        >
+          <p className="font-semibold mb-1" style={{ color: 'var(--text-primary)' }}>
+            {t('officialPortalTitle')}
+          </p>
+          <p className="text-sm mb-3" style={{ color: 'var(--text-muted)' }}>
+            {t('officialPortalLead')}
+          </p>
+          <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm">
+            <a
+              href={t('portalNationalUrl')}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline"
+              style={{ color: 'var(--accent)' }}
+            >
+              {t('portalNational')}
+            </a>
+            <a
+              href={t('portalLocalUrl')}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline"
+              style={{ color: 'var(--accent)' }}
+            >
+              {t('portalLocal')}
+            </a>
+          </div>
         </div>
       </div>
     </section>

@@ -1,15 +1,45 @@
 import { useTranslations, useMessages } from 'next-intl';
 
+function renderRich(text: string) {
+  return text.replace(/\*\*(.*?)\*\*/g, '<strong style="color: var(--text-primary)">$1</strong>');
+}
+
 export default function Intro() {
   const t = useTranslations('intro');
   const tOff = useTranslations('officialManagement');
   const messages = useMessages() as any;
   const items: string[] = messages?.intro?.visitGuide?.items || [];
   const alsoKnownAsItems: string[] = messages?.intro?.alsoKnownAs?.items || [];
+  const semanticData = messages?.intro?.semantic as any;
+  const geoChain: string[] = semanticData?.geoChain || [];
+  const welcomeText: string = semanticData?.welcome || '';
+  const landmarksText: string = semanticData?.landmarks || '';
 
   return (
     <section className="section-padding">
       <div className="max-w-4xl mx-auto">
+        {/* Geo breadcrumb: attraction → city → province → country */}
+        {geoChain.length > 0 && (
+          <nav aria-label="Breadcrumb" className="mb-6">
+            <ol className="flex flex-wrap items-center gap-2 text-sm" style={{ color: 'var(--text-muted)' }}>
+              {geoChain.map((part, i) => (
+                <li key={i} className="flex items-center gap-2">
+                  {i > 0 && <span aria-hidden="true">›</span>}
+                  <span
+                    style={
+                      i === 0
+                        ? { color: 'var(--text-primary)', fontWeight: 600 }
+                        : undefined
+                    }
+                  >
+                    {part}
+                  </span>
+                </li>
+              ))}
+            </ol>
+          </nav>
+        )}
+
         <h2
           className="font-display text-3xl sm:text-4xl font-semibold mb-6"
           style={{ color: 'var(--text-primary)' }}
@@ -24,6 +54,27 @@ export default function Intro() {
         >
           {t('description')}
         </p>
+
+        {/* Entity semantic binding: name equivalence + surrounding landmarks */}
+        {welcomeText && (
+          <div
+            className="mb-12 rounded-xl p-6 sm:p-8 space-y-4"
+            style={{ background: 'var(--bg-tertiary)', border: '1px solid var(--accent)' }}
+          >
+            <p
+              className="text-lg leading-relaxed"
+              style={{ color: 'var(--text-secondary)' }}
+              dangerouslySetInnerHTML={{ __html: renderRich(welcomeText) }}
+            />
+            {landmarksText && (
+              <p
+                className="text-base leading-relaxed"
+                style={{ color: 'var(--text-secondary)' }}
+                dangerouslySetInnerHTML={{ __html: renderRich(landmarksText) }}
+              />
+            )}
+          </div>
+        )}
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div

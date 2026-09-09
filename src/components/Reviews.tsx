@@ -1,4 +1,5 @@
-import { useTranslations, useMessages } from 'next-intl';
+import { useTranslations, useMessages, useLocale } from 'next-intl';
+import { SITE } from '@/lib/site';
 
 function Stars({ count }: { count: number }) {
   return (
@@ -21,7 +22,12 @@ function Stars({ count }: { count: number }) {
 
 export default function Reviews() {
   const t = useTranslations('reviews');
+  const locale = useLocale();
   const messages = useMessages() as any;
+  const mapsUrl = SITE.mapsShareUrl;
+  const reviewTotal = new Intl.NumberFormat(locale, { useGrouping: true }).format(
+    parseInt(SITE.reviewCount.replace(/[^\d]/g, ''), 10) || 0
+  );
   const items = (messages?.reviews?.items || []) as Array<{
     name: string;
     date: string;
@@ -46,6 +52,40 @@ export default function Reviews() {
         >
           {t('declaration')}
         </p>
+
+        <div className="mb-10 flex justify-center">
+          <a
+            href={mapsUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex flex-wrap items-center justify-center gap-x-4 gap-y-1 rounded-2xl px-5 py-3 transition-shadow hover:shadow-md"
+            style={{
+              background: 'var(--card-bg)',
+              border: '1px solid var(--border-color)',
+              boxShadow: 'var(--card-shadow)',
+            }}
+          >
+            <span
+              className="font-display text-2xl font-semibold leading-none"
+              style={{ color: 'var(--text-primary)' }}
+            >
+              {SITE.rating}
+            </span>
+            <span
+              aria-hidden
+              className="leading-none"
+              style={{ color: '#f0b429', fontSize: '1.05rem', letterSpacing: '2px' }}
+            >
+              ★★★★<span style={{ opacity: 0.45 }}>★</span>
+            </span>
+            <span className="text-sm font-medium" style={{ color: 'var(--text-secondary)' }}>
+              {t('ratingLabel')}
+            </span>
+            <span className="text-xs" style={{ color: 'var(--text-muted)' }}>
+              {reviewTotal} {t('ratingCountUnit')} ↗
+            </span>
+          </a>
+        </div>
 
         <div className="grid sm:grid-cols-2 gap-4 sm:gap-6 mb-8">
           {items.map((review, i) => (
@@ -90,7 +130,7 @@ export default function Reviews() {
         {/* More reviews link — arrow only */}
         <div className="flex justify-center">
           <a
-            href="https://maps.app.goo.gl/GimLtykHVTQRwsi38"
+            href={mapsUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="group flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-medium transition-all"

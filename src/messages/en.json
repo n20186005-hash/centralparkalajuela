@@ -1,20 +1,154 @@
 {
   "meta": {
-    "title": "Central Park Alajuela | Parque Central de Alajuela",
-    "description": "Explore Central Park Alajuela in Alajuela Province, Costa Rica. A beautiful urban park located in the heart of Alajuela city, ideal for relaxation and experiencing local culture."
+    "title": "Central Park Alajuela (Parque Central) | Alajuela, Costa Rica",
+    "description": "Free 24-hour city park in the heart of Alajuela, Costa Rica. Map, opening hours, what to see (kiosk, cathedral) and SJO airport travel tips.",
+    "keywords": [
+      "Central Park Alajuela",
+      "Parque Central de Alajuela",
+      "Central Park Alajuela Costa Rica",
+      "Alajuela Central Park",
+      "Alajuela Cathedral",
+      "park near SJO airport",
+      "things to do in Alajuela"
+    ],
+    "ogTitle": "Central Park Alajuela (Parque Central de Alajuela) - Alajuela, Costa Rica",
+    "ogDescription": "Official visitor guide to Parque Central de Alajuela (Central Park Alajuela) in Alajuela, Alajuela Province, Costa Rica.",
+    "ogImageAlt": "Central Park Alajuela (Parque Central de Alajuela) - Main view in Alajuela, Costa Rica"
+  },
+  "weather": {
+    "title": "Live Weather at Central Park Alajuela",
+    "subtitle": "Current conditions and forecast for downtown Alajuela, Costa Rica",
+    "feelsLike": "Feels like",
+    "wind": "Wind",
+    "rainShort": "Rain",
+    "high": "High",
+    "low": "Low",
+    "forecastTitle": "Next Days Forecast",
+    "today": "Today",
+    "unavailable": "Weather data is temporarily unavailable. Please refresh the page in a moment.",
+    "updated": "Updated",
+    "conditions": {
+      "clear": "Clear",
+      "partly": "Partly cloudy",
+      "cloudy": "Cloudy",
+      "fog": "Fog",
+      "drizzle": "Drizzle",
+      "rain": "Rain",
+      "snow": "Snow",
+      "storm": "Thunderstorm"
+    },
+    "uv": "UV",
+    "advice": {
+      "heading": "Tips for your visit",
+      "auto": "Generated automatically from the current weather",
+      "tagRisk": "Heads up",
+      "tagPlan": "What to do",
+      "tagOutfit": "What to wear",
+      "tagGear": "What to pack",
+      "riskStorm": "Thunderstorm: while out walking, avoid open areas, tall trees and metal structures.",
+      "riskHeavyRain": "Heavy rain: limit time outdoors and stay away from areas that flood easily.",
+      "riskWind": "Strong wind: keep clear of large trees and structures with awnings or canopies.",
+      "planIndoorRain": "If it rains, walk along covered paths or duck into a nearby café until it passes.",
+      "planRainProb": "Rain is very likely today — have an indoor backup plan ready.",
+      "planLightRain": "Light rain or drizzle: fine for a short walk, just watch your step on wet ground.",
+      "planAvoidMidday": "Avoid walking in direct sun between 11:00 and 15:00.",
+      "planFog": "Fog limits the views; stay in the open areas of the park.",
+      "planNiceDay": "Great day to stroll, sit on a bench outdoors and take photos.",
+      "outfitWarm": "Light, breathable clothing; it gets hot around midday.",
+      "outfitLayers": "Dress in layers — mornings and evenings are cooler.",
+      "gearUmbrella": "Compact umbrella",
+      "gearRaincoat": "Light rain jacket",
+      "gearHydrate": "Extra water",
+      "gearSun": "Sunscreen, hat and sunglasses",
+      "gearWindHat": "Secure your hat and loose clothing"
+    },
+    "mountainNote": "Weather for downtown Alajuela. If you head to Poás Volcano or the nearby waterfalls, expect colder air and faster-changing conditions."
+  },
+  "facilities": {
+    "title": "Practical Facilities & Services Near the Park",
+    "intro": "Restrooms (WC), parking, where to eat, where to stay, everyday shopping, fuel and EV charging — here is a neutral, category-based overview of the everyday services around Central Park Alajuela. As a non-profit science and education website we do not endorse any specific business; availability, opening hours and prices always depend on the real situation on site.",
+    "tipTitle": "Practical tip",
+    "tip": "Most sights around the park are within easy walking distance. For early-morning or night visits, it is best to take an official taxi or an app-based ride to the plaza.",
+    "items": [
+      {
+        "id": "restrooms",
+        "title": "Restrooms (WC)",
+        "body": "Central Park Alajuela is an open public space, and restrooms are usually not located inside the park itself. Within a short walk you will generally find public restrooms in the surrounding public buildings and commercial venues — look for the standard WC signs; note that some are for customers only.",
+        "tags": [
+          "Public restrooms (WC)",
+          "Nearby malls & storefronts",
+          "Public buildings & institutions"
+        ]
+      },
+      {
+        "id": "parking",
+        "title": "Parking",
+        "body": "Parking around the plaza is mostly short-stay: on-street metered spots, municipal public lots and paid private garages. Space is tight during peak hours and on weekends; many visitors instead arrive by taxi, bus or ride-share.",
+        "tags": [
+          "On-street metered parking",
+          "Public & private paid lots",
+          "Taxi / bus / ride-share"
+        ]
+      },
+      {
+        "id": "dining",
+        "title": "Dining (by type, not by brand)",
+        "body": "Within walking distance you will find typical Costa Rican sodas (small family-run diners), casual restaurants, cafés and bakeries, fast-food outlets and, two or three blocks away, the traditional Central Market with local food stalls — a good place to try a casado and fresh tropical fruit juices.",
+        "tags": [
+          "Local sodas & diners",
+          "Cafés & bakeries",
+          "Central Market food stalls",
+          "Vegetarian options usually available"
+        ]
+      },
+      {
+        "id": "hotels",
+        "title": "Where to Stay",
+        "body": "Accommodation around the park covers city-center hotels, boutique hotels, hostels, guesthouses and short-term rental apartments. Because the park is only a 5-10 minute drive from Juan Santamaría Airport (SJO), lodging near the airport is also convenient for early or late flights.",
+        "tags": [
+          "City-center hotels",
+          "Hostels & guesthouses",
+          "Airport-area hotels"
+        ]
+      },
+      {
+        "id": "shopping",
+        "title": "Groceries, Pharmacy & Banking",
+        "body": "Everyday services — supermarkets and grocery stores, convenience stores, pharmacies, banks and ATMs — are common along the main avenues leading to the plaza, usually within a short walk. The Central Market area is the most practical place for daily grocery shopping.",
+        "tags": [
+          "Supermarkets & minimarkets",
+          "Pharmacies",
+          "Banks & ATMs",
+          "Central Market area"
+        ]
+      },
+      {
+        "id": "fuel",
+        "title": "Fuel & EV Charging",
+        "body": "Fuel stations are found along Alajuela's main avenues and the airport road rather than in the pedestrian city center, with both full-service and self-service pumps. EV charging points are still limited, so check current coverage with your rental company or a charging-map app before you set off.",
+        "tags": [
+          "Stations on main roads & airport road",
+          "Full-service & self-service",
+          "EV charging (still limited)"
+        ]
+      }
+    ]
   },
   "header": {
     "home": "Home",
     "gallery": "Gallery",
     "reviews": "Reviews",
     "map": "Map",
-    "backToHome": "Back to Home"
+    "backToHome": "Back to Home",
+    "hours": "Hours",
+    "faq": "FAQ"
   },
   "hero": {
-    "title": "Parque Central de Alajuela",
+    "title": "Central Park Alajuela (Parque Central de Alajuela)",
     "subtitle": "Central Park Alajuela | The City of Mangoes, Costa Rica",
+    "imageAlt": "Central Park Alajuela (Parque Central de Alajuela) - Main view in Alajuela, Costa Rica",
     "rating": "4.4",
-    "reviewCount": "5,873",
+    "reviewCount": "5,919",
     "hours": "Urban Park",
     "openMaps": "View Map Navigation",
     "downloadGuide": "Download Walking Guide"
@@ -22,6 +156,16 @@
   "intro": {
     "title": "Explore Central Park Alajuela",
     "description": "Central Park Alajuela is located in the heart of Alajuela city, Alajuela Province, Costa Rica. It is a beautiful urban park and an ideal place for local residents and tourists to relax and unwind. Surrounded by beautiful scenery andexcellent geographical location, it is an excellent place to experience Alajuela's local culture and high quality of life.",
+    "semantic": {
+      "welcome": "Welcome to **Parque Central de Alajuela**, widely recognized as **Central Park Alajuela**. Located in the heart of **Alajuela**, **Alajuela Province**, **Costa Rica**, this destination serves as a primary hub for travelers visiting the region.",
+      "geoChain": [
+        "Central Park Alajuela",
+        "Alajuela",
+        "Alajuela Province",
+        "Costa Rica"
+      ],
+      "landmarks": "When visiting **Central Park Alajuela (Parque Central de Alajuela)**, visitors can easily explore surrounding historical landmarks and points of interest, including **Alajuela Cathedral (Catedral de la Virgen del Pilar)** and the **Juan Santamaría Historical & Cultural Museum**."
+    },
     "visitGuide": {
       "title": "Alajuela Central Park One-Day Itinerary",
       "items": [
@@ -239,12 +383,94 @@
         "rating": 4,
         "text": "Well-maintained public space with a kiosk in the center. Very relaxing to just sit and people-watch."
       }
-    ]
+    ],
+    "ratingLabel": "Average rating on Google Maps",
+    "ratingCountUnit": "reviews"
   },
   "mapSection": {
     "title": "Location & Map",
     "subtitle": "2Q8P+HFR, Provincia de Alajuela, Alajuela, Costa Rica",
-    "openMaps": "View on Google Maps"
+    "openMaps": "View on Google Maps",
+    "officialPortalTitle": "Official Tourism Information",
+    "officialPortalLead": "For official updates and regional tourism information, visit:",
+    "portalNational": "Costa Rica Tourism Board (ICT)",
+    "portalNationalUrl": "https://www.visitcostarica.com/",
+    "portalLocal": "Alajuela Municipal Government",
+    "portalLocalUrl": "https://www.munialajuela.go.cr/"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions about Central Park Alajuela",
+    "intro": "Quick answers to the most common questions visitors ask about Parque Central de Alajuela (Central Park Alajuela).",
+    "items": [
+      {
+        "q": "Where is Central Park Alajuela (Parque Central de Alajuela) located?",
+        "a": "Central Park Alajuela, officially Parque Central de Alajuela, is located in the heart of Alajuela city, Alajuela Province, Costa Rica, directly beside the Alajuela Cathedral. Its Google Maps Plus Code is 2Q8P+HFR."
+      },
+      {
+        "q": "Is Central Park Alajuela free to visit?",
+        "a": "Yes. Parque Central de Alajuela is a public urban park and is completely free to visit, open 24 hours a day, 7 days a week, all year round."
+      },
+      {
+        "q": "How far is Central Park Alajuela from Juan Santamaría International Airport (SJO)?",
+        "a": "The park is only a 5-10 minute drive from Juan Santamaría International Airport (SJO), which makes it a popular first or last stop for travelers in Costa Rica."
+      },
+      {
+        "q": "What are the main attractions at Central Park Alajuela?",
+        "a": "Inside the park, look for the iconic central octagonal kiosk and fountain, century-old mango trees, and wildlife such as green iguanas, red-fronted parakeets and sloths. Beside the park you will find the Alajuela Cathedral and the Juan Santamaría Historical & Cultural Museum."
+      },
+      {
+        "q": "What is the best time to visit Central Park Alajuela?",
+        "a": "Daytime visits offer the best light, and December to April is the driest season. Early morning is ideal for spotting sloths and iguanas, while at sunset hundreds of red-fronted parakeets fly in to roost in the mango canopy."
+      },
+      {
+        "q": "What is the address of Central Park Alajuela?",
+        "a": "The official Google Maps address of Parque Central de Alajuela is 2Q8P+HFR, Provincia de Alajuela, Alajuela, Costa Rica (postal code 20101)."
+      },
+      {
+        "q": "What can visitors see around Central Park Alajuela?",
+        "a": "Around the park, travelers can easily explore the Alajuela Cathedral (Catedral de la Virgen del Pilar) and the Juan Santamaría Historical & Cultural Museum; the Central Market (Mercado Central) is two blocks away for authentic Costa Rican food."
+      },
+      {
+        "q": "Is Central Park Alajuela open at night?",
+        "a": "Yes. Parque Central de Alajuela is open 24 hours a day as a public space. As with any city park, visitors should use common sense and stay aware of their surroundings after dark."
+      }
+    ]
+  },
+  "sources": {
+    "title": "Sources & References",
+    "intro": "This visitor guide was compiled with information from the following official and public sources:",
+    "items": [
+      {
+        "name": "Costa Rica Tourism Board",
+        "url": "https://www.visitcostarica.com/",
+        "note": "Official national tourism portal for planning your visit to Costa Rica."
+      },
+      {
+        "name": "Costa Rican Tourism Institute (ICT)",
+        "url": "https://www.ict.go.cr/",
+        "note": "Official institute of the Costa Rica tourism sector."
+      },
+      {
+        "name": "Alajuela Municipal Government",
+        "url": "https://www.munialajuela.go.cr/",
+        "note": "Official municipal authority of Alajuela city."
+      },
+      {
+        "name": "Juan Santamaría Historical & Cultural Museum",
+        "url": "https://museojuansantamaria.go.cr/",
+        "note": "Official museum page beside the park dedicated to Costa Rica's national hero."
+      },
+      {
+        "name": "National System of Conservation Areas (SINAC)",
+        "url": "https://www.sinac.go.cr/",
+        "note": "Official source for Costa Rica's protected areas and wildlife."
+      },
+      {
+        "name": "Central Park Alajuela on Google Maps",
+        "url": "https://maps.app.goo.gl/GimLtykHVTQRwsi38",
+        "note": "Official Google Maps listing with address, photos and visitor reviews."
+      }
+    ]
   },
   "footer": {
     "rights": "© 2026 Central Park Alajuela. All rights reserved.",
@@ -286,7 +512,8 @@
         "url": "https://www.sinac.go.cr/"
       }
     },
-    "disclaimer": "This website is an independent third-party travel information project. We have no affiliation with local government or other official institutions."
+    "disclaimer": "This website is an independent third-party travel information project. We have no affiliation with local government or other official institutions.",
+    "imageCredit": "Image credit: All images displayed on this website remain the property of their respective photographers, and are used with full respect for their copyright."
   },
   "privacy": {
     "title": "Privacy Policy",

@@ -1,20 +1,154 @@
 {
   "meta": {
-    "title": "阿拉胡埃拉中央公园 | Central Park Alajuela",
-    "description": "探索哥斯达黎加阿拉胡埃拉省的Central Park Alajuela（阿拉胡埃拉中央公园）。这是一个美丽的城市公园，位于阿拉胡埃拉市中心，是当地居民和游客休闲放松的理想场所。"
+    "title": "阿拉胡埃拉中央公园（Parque Central de Alajuela）｜哥斯达黎加",
+    "description": "免费、24 小时开放的哥斯达黎加阿拉胡埃拉市中心公园：位置地图、开放时间、看点（八角亭、大教堂）与机场出行贴士。",
+    "keywords": [
+      "Central Park Alajuela",
+      "阿拉胡埃拉中央公园",
+      "Parque Central de Alajuela",
+      "阿拉胡埃拉 公园",
+      "哥斯达黎加 阿拉胡埃拉",
+      "SJO 机场附近",
+      "阿拉胡埃拉大教堂"
+    ],
+    "ogTitle": "Central Park Alajuela（阿拉胡埃拉中央公园 / Parque Central de Alajuela）| 哥斯达黎加 阿拉胡埃拉",
+    "ogDescription": "Central Park Alajuela（阿拉胡埃拉中央公园 / Parque Central de Alajuela）位于哥斯达黎加阿拉胡埃拉省阿拉胡埃拉市的官方游客指南。",
+    "ogImageAlt": "Central Park Alajuela（阿拉胡埃拉中央公园 / Parque Central de Alajuela）—— 哥斯达黎加阿拉胡埃拉 主景观"
+  },
+  "weather": {
+    "title": "阿拉胡埃拉中央公园实时天气",
+    "subtitle": "哥斯达黎加阿拉胡埃拉市中心当前天气与未来多日预报",
+    "feelsLike": "体感",
+    "wind": "风速",
+    "rainShort": "降雨",
+    "high": "最高",
+    "low": "最低",
+    "forecastTitle": "未来多日预报",
+    "today": "今天",
+    "unavailable": "暂时无法获取天气数据，请稍后刷新页面重试。",
+    "updated": "更新于",
+    "conditions": {
+      "clear": "晴",
+      "partly": "多云",
+      "cloudy": "阴天",
+      "fog": "有雾",
+      "drizzle": "毛毛雨",
+      "rain": "降雨",
+      "snow": "降雪",
+      "storm": "雷雨"
+    },
+    "uv": "紫外线",
+    "advice": {
+      "heading": "今日出行建议",
+      "auto": "根据实时天气自动生成",
+      "tagRisk": "风险提醒",
+      "tagPlan": "游玩安排",
+      "tagOutfit": "穿搭建议",
+      "tagGear": "随身物品",
+      "riskStorm": "雷雨天气：游览时请远离空旷地带、大树和金属设施。",
+      "riskHeavyRain": "降雨较强：请缩短户外停留时间，避开易积水路段。",
+      "riskWind": "风力较大：注意远离大树及有遮阳棚、幕布的建筑。",
+      "planIndoorRain": "若下雨可走有顶棚的路段，或到附近咖啡馆躲雨。",
+      "planRainProb": "今天降水概率较高，建议准备好室内备选方案。",
+      "planLightRain": "小雨/毛毛雨：适合短途散步，注意路面湿滑。",
+      "planAvoidMidday": "11–15 点阳光较强，建议避开正午时段暴晒。",
+      "planFog": "有雾、能见度有限：建议在公园开阔处活动。",
+      "planNiceDay": "今天适合在公园散步、坐坐长椅、拍照。",
+      "outfitWarm": "天气较热，建议穿轻薄透气的衣物。",
+      "outfitLayers": "早晚偏凉，建议带一件薄外套方便增减。",
+      "gearUmbrella": "折叠伞",
+      "gearRaincoat": "轻便雨衣",
+      "gearHydrate": "饮用水",
+      "gearSun": "防晒霜、遮阳帽、墨镜",
+      "gearWindHat": "注意固定帽子等易被吹走的物品"
+    },
+    "mountainNote": "以上为市区公园数据。若前往波阿斯火山或附近瀑布，气温更低、天气变化更快。"
+  },
+  "facilities": {
+    "title": "公园周边实用设施与服务",
+    "intro": "卫生间（WC）、停车、餐饮、住宿、日常购物、加油与充电——以下按类别中立介绍阿拉胡埃拉中央公园周边的日常服务。本站为非营利科普网站，不推荐任何具体商户；各项设施的开放情况、营业时间与价格请以现场实际为准。",
+    "tipTitle": "实用提示",
+    "tip": "公园周边的主要景点大多步行可达；清晨或夜间出行时，建议乘坐正规出租车或网约车到达广场附近。",
+    "items": [
+      {
+        "id": "restrooms",
+        "title": "公共卫生间 (WC)",
+        "body": "中央公园是开放式公共空间，园内通常不设卫生间。步行几分钟范围内的周边公共设施与建筑里一般都能找到公共卫生间（留意 WC 标识），其中部分可能仅供消费顾客使用。",
+        "tags": [
+          "公共卫生间 (WC)",
+          "周边商场与临街商户",
+          "公共建筑与机构"
+        ]
+      },
+      {
+        "id": "parking",
+        "title": "停车",
+        "body": "广场周边的停车多为短时停放：街边咪表停车位、市政公共停车场与私人收费停车场都有。高峰时段与周末车位较紧张；不少游客会选择乘出租车、公交或网约车前往。",
+        "tags": [
+          "街边咪表车位",
+          "市政及私人收费停车场",
+          "出租车 / 公交 / 网约车"
+        ]
+      },
+      {
+        "id": "dining",
+        "title": "餐饮（按类型介绍，不推荐商户）",
+        "body": "步行可达范围内有典型的哥斯达黎加小餐馆（Soda）、家常餐厅、咖啡馆与面包房、快餐店；两三个街区外的中央市场 (Mercado Central) 有本地小吃摊档，适合品尝 Casado 套餐与热带鲜榨果汁。",
+        "tags": [
+          "本地小餐馆 (Soda)",
+          "咖啡馆与面包房",
+          "中央市场美食摊档",
+          "可找到素食选择"
+        ]
+      },
+      {
+        "id": "hotels",
+        "title": "住宿",
+        "body": "公园周边的住宿覆盖市中心酒店、精品酒店、青年旅舍、民宿与短租公寓等类型；由于公园距胡安·圣玛丽亚机场 (SJO) 仅 5-10 分钟车程，机场片区住宿对早班或夜班航班的旅客也很方便。",
+        "tags": [
+          "市中心酒店",
+          "青旅与民宿",
+          "机场片区住宿"
+        ]
+      },
+      {
+        "id": "shopping",
+        "title": "超市、药房与银行",
+        "body": "通往广场的几条主要街道两旁，通常步行即可找到超市/杂货店、便利店、药房、银行与 ATM；日常采买最方便的区域是中央市场一带。",
+        "tags": [
+          "超市与便利店",
+          "药房",
+          "银行与 ATM",
+          "中央市场一带采买"
+        ]
+      },
+      {
+        "id": "fuel",
+        "title": "加油与充电",
+        "body": "加油站主要分布在阿拉胡埃拉的主干道以及通往机场的道路沿线，而非步行街区中心，提供人工加油与自助加油；电动车充电桩目前仍较少，建议出发前向租车公司或通过充电地图类应用确认沿途的充电点。",
+        "tags": [
+          "主干道及机场路沿线加油站",
+          "人工 / 自助加油",
+          "电动车充电（目前较少）"
+        ]
+      }
+    ]
   },
   "header": {
     "home": "首页",
     "gallery": "图库",
     "reviews": "评价",
     "map": "地图",
-    "backToHome": "返回首页"
+    "backToHome": "返回首页",
+    "hours": "开放时间",
+    "faq": "常见问题"
   },
   "hero": {
-    "title": "Parque Central de Alajuela",
+    "title": "Central Park Alajuela（阿拉胡埃拉中央公园 · Parque Central de Alajuela）",
     "subtitle": "阿拉胡埃拉中央公园 | 哥斯达黎加的芒果之城",
+    "imageAlt": "Central Park Alajuela（阿拉胡埃拉中央公园 / Parque Central de Alajuela）—— 哥斯达黎加阿拉胡埃拉 主景观",
     "rating": "4.4",
-    "reviewCount": "5,873",
+    "reviewCount": "5,919",
     "hours": "城市公园",
     "openMaps": "查看地图导航",
     "downloadGuide": "周边步行导览下载"
@@ -22,6 +156,16 @@
   "intro": {
     "title": "探索阿拉胡埃拉中央公园",
     "description": "Central Park Alajuela（阿拉胡埃拉中央公园）位于哥斯达黎加阿拉胡埃拉省阿拉胡埃拉市中心。这是一个美丽的城市公园，是当地居民和游客休闲放松的理想场所。公园周围环境优美，地理位置优越，是体验阿拉胡埃拉本地文化和高生活质量的绝佳地点。",
+    "semantic": {
+      "welcome": "欢迎来到 **Parque Central de Alajuela（阿拉胡埃拉中央公园）**，它更广为人知的名称是 **Central Park Alajuela**。公园坐落于 **哥斯达黎加** **阿拉胡埃拉省** **阿拉胡埃拉市** 的市中心，是游客探索这一地区的主要枢纽。",
+      "geoChain": [
+        "Central Park Alajuela（阿拉胡埃拉中央公园）",
+        "阿拉胡埃拉",
+        "阿拉胡埃拉省",
+        "哥斯达黎加"
+      ],
+      "landmarks": "游览 **Central Park Alajuela（阿拉胡埃拉中央公园 / Parque Central de Alajuela）** 时，游客还可以轻松探索周边的历史地标与景点，包括 **阿拉胡埃拉大教堂 (Catedral de la Virgen del Pilar)** 与 **胡安·圣玛丽亚历史文化博物馆 (Museo Juan Santamaría)**。"
+    },
     "visitGuide": {
       "title": "阿拉胡埃拉中央公园周边一日游攻略",
       "items": [
@@ -239,12 +383,94 @@
         "rating": 4,
         "text": "维护得很好的公共空间，中心有凉亭。可以在这里观看人来人往，非常放松。"
       }
-    ]
+    ],
+    "ratingLabel": "Google 地图平均评分",
+    "ratingCountUnit": "条评价"
   },
   "mapSection": {
     "title": "地图位置",
     "subtitle": "2Q8P+HFR, Provincia de Alajuela, Alajuela, 哥斯达黎加",
-    "openMaps": "在 Google Maps 查看位置"
+    "openMaps": "在 Google Maps 查看位置",
+    "officialPortalTitle": "官方旅游资讯",
+    "officialPortalLead": "如需最新资讯与当地旅游信息，请访问：",
+    "portalNational": "哥斯达黎加国家旅游局 (ICT)",
+    "portalNationalUrl": "https://www.visitcostarica.com/",
+    "portalLocal": "阿拉胡埃拉市政府",
+    "portalLocalUrl": "https://www.munialajuela.go.cr/"
+  },
+  "faq": {
+    "title": "关于阿拉胡埃拉中央公园的常见问题",
+    "intro": "针对游客最常询问的 Parque Central de Alajuela（Central Park Alajuela / 阿拉胡埃拉中央公园）相关问题，提供快速解答。",
+    "items": [
+      {
+        "q": "阿拉胡埃拉中央公园 (Parque Central de Alajuela) 在哪里？",
+        "a": "阿拉胡埃拉中央公园（官方西语名 Parque Central de Alajuela，即 Central Park Alajuela）位于哥斯达黎加阿拉胡埃拉省阿拉胡埃拉市的市中心，紧邻阿拉胡埃拉大教堂，Google Maps Plus Code 为 2Q8P+HFR。"
+      },
+      {
+        "q": "进入阿拉胡埃拉中央公园需要门票吗？",
+        "a": "不需要。Parque Central de Alajuela 是完全免费开放的公共城市公园，全年全天候 24 小时开放。"
+      },
+      {
+        "q": "阿拉胡埃拉中央公园距离胡安·圣玛丽亚国际机场 (SJO) 有多远？",
+        "a": "公园距胡安·圣玛丽亚国际机场 (SJO) 仅 5-10 分钟车程，因此成为许多旅客抵达或离开哥斯达黎加时的第一站或最后一站。"
+      },
+      {
+        "q": "阿拉胡埃拉中央公园有哪些主要看点？",
+        "a": "公园内有标志性的中央八角凉亭与喷泉、百年芒果树，以及绿鬣蜥、红额鹦鹉和树懒等野生动物；公园旁就是阿拉胡埃拉大教堂和胡安·圣玛丽亚历史文化博物馆。"
+      },
+      {
+        "q": "什么时间参观阿拉胡埃拉中央公园最好？",
+        "a": "白天光线最佳，12 月至次年 4 月的旱季天气最干爽；清晨适合观察树懒与鬣蜥，日落时分则可看到成百上千只红额鹦鹉飞回芒果树林栖息。"
+      },
+      {
+        "q": "阿拉胡埃拉中央公园的地址是什么？",
+        "a": "Parque Central de Alajuela 在 Google Maps 上的官方地址为 2Q8P+HFR, Provincia de Alajuela, Alajuela, 哥斯达黎加（邮编 20101）。"
+      },
+      {
+        "q": "阿拉胡埃拉中央公园周边还有哪些可游览的地方？",
+        "a": "游客可轻松探索公园旁的阿拉胡埃拉大教堂 (Catedral de la Virgen del Pilar) 与胡安·圣玛丽亚历史文化博物馆；两街区外的中央市场 (Mercado Central) 还能品尝地道的哥斯达黎加美食。"
+      },
+      {
+        "q": "阿拉胡埃拉中央公园晚上开放吗？",
+        "a": "开放。作为公共空间，公园 24 小时全天开放；与任何城市公园一样，夜间游览时请保持警觉、注意人身与财物安全。"
+      }
+    ]
+  },
+  "sources": {
+    "title": "资料来源与参考",
+    "intro": "本游客指南的内容参考并整理自以下官方及公开资料：",
+    "items": [
+      {
+        "name": "哥斯达黎加国家旅游局 (Visit Costa Rica)",
+        "url": "https://www.visitcostarica.com/",
+        "note": "哥斯达黎加官方旅游门户，用于规划行程。"
+      },
+      {
+        "name": "哥斯达黎加旅游局 (ICT)",
+        "url": "https://www.ict.go.cr/",
+        "note": "哥斯达黎加旅游部门的官方机构。"
+      },
+      {
+        "name": "阿拉胡埃拉市政府",
+        "url": "https://www.munialajuela.go.cr/",
+        "note": "阿拉胡埃拉市的官方市政机构。"
+      },
+      {
+        "name": "胡安·圣玛丽亚历史文化博物馆",
+        "url": "https://museojuansantamaria.go.cr/",
+        "note": "公园旁纪念哥斯达黎加民族英雄的官方博物馆页面。"
+      },
+      {
+        "name": "哥斯达黎加国家保护区系统 (SINAC)",
+        "url": "https://www.sinac.go.cr/",
+        "note": "哥斯达黎加保护区与野生动物信息的官方来源。"
+      },
+      {
+        "name": "Central Park Alajuela 的 Google Maps 页面",
+        "url": "https://maps.app.goo.gl/GimLtykHVTQRwsi38",
+        "note": "Google Maps 官方地点页面，包含地址、照片与游客评价。"
+      }
+    ]
   },
   "footer": {
     "rights": "© 2026 Central Park Alajuela. 保留所有权利。",
@@ -286,7 +512,8 @@
         "url": "https://www.sinac.go.cr/"
       }
     },
-    "disclaimer": "本网站是一个独立的第三方旅游资讯项目。我们与当地政府或其他官方机构没有任何关联。"
+    "disclaimer": "本网站是一个独立的第三方旅游资讯项目。我们与当地政府或其他官方机构没有任何关联。",
+    "imageCredit": "图片版权声明：本网站所展示的所有图片产权及版权均归原摄影者所有，仅用于展示分享，特此声明。"
   },
   "privacy": {
     "title": "隐私政策",

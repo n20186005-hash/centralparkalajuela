@@ -2,13 +2,14 @@ import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
+import { SITE } from '@/lib/site';
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
 
-const SITE_URL = 'https://centralparkalajuela.com';
+const SITE_URL = SITE.url;
 
 export async function generateMetadata({
   params,
@@ -28,77 +29,144 @@ export async function generateMetadata({
   else if (locale === 'es') selfUrl = esUrl;
 
   const localeMap: Record<string, string> = {
-    'zh': 'zh_CN',
-    'en': 'en_US',
-    'es': 'es_MX',
+    zh: 'zh_CN',
+    en: 'en_US',
+    es: 'es_MX',
   };
 
+  const title = messages.meta?.title;
+  const description = messages.meta?.description;
+  const keywords = messages.meta?.keywords;
+  const ogTitle = messages.meta?.ogTitle || title;
+  const ogDescription = messages.meta?.ogDescription || description;
+  const ogImageAlt = messages.meta?.ogImageAlt || title;
+  const heroImageAbsolute = `${baseUrl}${SITE.heroImage}`;
+
   return {
-    title: messages.meta.title,
-    description: messages.meta.description,
+    metadataBase: new URL(baseUrl),
+    title,
+    description,
+    keywords,
     alternates: {
       canonical: selfUrl,
       languages: {
-        'zh': zhUrl,
-        'en': enUrl,
-        'es': esUrl,
-        'x-default': zhUrl,
+        zh: zhUrl,
+        en: enUrl,
+        es: esUrl,
+        'x-default': esUrl,
       } as Record<string, string>,
     },
     openGraph: {
-      title: messages.meta.title,
-      description: messages.meta.description,
+      title: ogTitle,
+      description: ogDescription,
       url: selfUrl,
-      siteName: "Parque Central de Alajuela",
+      siteName: `${SITE.attractionShortName} | ${SITE.attractionFullName}`,
       locale: localeMap[locale] || 'zh_CN',
       type: 'website',
+      images: [
+        {
+          url: heroImageAbsolute,
+          alt: ogImageAlt,
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: ogTitle,
+      description: ogDescription,
+      images: [heroImageAbsolute],
+    },
+    icons: {
+      icon: '/icons/icon-192.png',
+      apple: '/icons/icon-192.png',
+    },
+    manifest: SITE.manifestPath,
+    appleWebApp: {
+      capable: true,
+      title: SITE.attractionShortName,
+      statusBarStyle: 'default',
+    },
+    formatDetection: {
+      telephone: false,
     },
   };
 }
 
+export const viewport: Viewport = {
+  themeColor: '#2d6375',
+  width: 'device-width',
+  initialScale: 1,
+};
+
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'TouristAttraction',
-  name: 'Parque Central de Alajuela (Central Park Alajuela)',
-  alternateName: ['Central Park Alajuela', 'Parque Central', '阿拉胡埃拉中央公园', 'Ciudad de los Mangos'],
-  description: 'A free, 24-hour urban park in the heart of Alajuela, Costa Rica — the "City of Mangoes" (Ciudad de los Mangos) — known for its century-old mango trees, the central octagonal kiosk, and abundant urban wildlife including sloths, green iguanas and red-fronted parakeets.',
-  url: SITE_URL,
-  image: `${SITE_URL}/gallery/central-park-alajuela-1.jpg`,
+  '@id': `${SITE.url}/#attraction`,
+  name: `${SITE.attractionShortName} (${SITE.attractionFullName})`,
+  alternateName: [
+    SITE.attractionFullName,
+    SITE.attractionShortName,
+    'Parque Central',
+    '阿拉胡埃拉中央公园',
+    'Ciudad de los Mangos',
+  ],
+  description:
+    'A free, 24-hour urban park in the heart of Alajuela, Costa Rica — the "City of Mangoes" (Ciudad de los Mangos) — known for its century-old mango trees, the central octagonal kiosk, and abundant urban wildlife including sloths, green iguanas and red-fronted parakeets.',
+  url: SITE.url,
+  image: [`${SITE.url}${SITE.heroImage}`],
   isAccessibleForFree: true,
   publicAccess: true,
   smokingAllowed: false,
+  hasMap: SITE.mapsShareUrl,
+  sameAs: [SITE.mapsShareUrl, SITE.govtTourismUrl, SITE.municipalityUrl],
   openingHours: '24/7',
   openingHoursSpecification: [
     {
       '@type': 'OpeningHoursSpecification',
-      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+      dayOfWeek: [
+        'Monday',
+        'Tuesday',
+        'Wednesday',
+        'Thursday',
+        'Friday',
+        'Saturday',
+        'Sunday',
+      ],
       opens: '00:00',
       closes: '23:59',
     },
   ],
   geo: {
     '@type': 'GeoCoordinates',
-    latitude: 10.0158,
-    longitude: -84.211,
+    latitude: SITE.latitude,
+    longitude: SITE.longitude,
   },
   address: {
     '@type': 'PostalAddress',
-    streetAddress: 'Parque Central',
-    addressLocality: 'Alajuela',
-    addressRegion: 'Alajuela',
-    postalCode: '20101',
-    addressCountry: 'CR',
+    streetAddress: SITE.attractionFullName,
+    addressLocality: SITE.city,
+    addressRegion: SITE.province,
+    postalCode: SITE.postalCode,
+    addressCountry: SITE.countryCode,
   },
   touristType: ['Families', 'Nature lovers', 'Transit passengers', 'Backpackers'],
-  additionalProperty: {
-    '@type': 'PropertyValue',
-    name: 'Airport proximity',
-    value: 'Only 5-10 minutes by car from Juan Santamaría International Airport (SJO)',
-  },
+  additionalProperty: [
+    {
+      '@type': 'PropertyValue',
+      name: 'Airport proximity',
+      value: 'Only 5-10 minutes by car from Juan Santamaría International Airport (SJO)',
+    },
+    {
+      '@type': 'PropertyValue',
+      name: 'Google Maps Plus Code',
+      value: SITE.plusCode,
+    },
+  ],
   containsPlace: {
     '@type': 'TouristAttraction',
     name: 'Central Kiosk (Quiosco)',
-    description: 'The iconic octagonal domed kiosk at the center of the park, built during the late-19th-century urban beautification of Alajuela.',
+    description:
+      'The iconic octagonal domed kiosk at the center of the park, built during the late-19th-century urban beautification of Alajuela.',
   },
 };
 
@@ -118,10 +186,27 @@ export default async function LocaleLayout({
   setRequestLocale(locale);
   const messages = await getMessages();
 
+  // Localized FAQPage structured data (mirrors the visible FAQ section).
+  const rawMessages = messages as any;
+  const faqItems: Array<{ q: string; a: string }> = Array.isArray(rawMessages?.faq?.items)
+    ? rawMessages.faq.items.filter(
+        (it: any) => it && typeof it.q === 'string' && typeof it.a === 'string'
+      )
+    : [];
+  const faqLd = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqItems.map((it) => ({
+      '@type': 'Question',
+      name: it.q,
+      acceptedAnswer: { '@type': 'Answer', text: it.a },
+    })),
+  };
+
   const langMap: Record<string, string> = {
-    'zh': 'zh-CN',
-    'en': 'en',
-    'es': 'es',
+    zh: 'zh-CN',
+    en: 'en',
+    es: 'es',
   };
 
   return (
@@ -129,10 +214,23 @@ export default async function LocaleLayout({
       <head>
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXX" crossOrigin="anonymous" />
         <meta name="google-adsense-account" content="ca-pub-XXXXXXXXXX" />
+
+        {/* GA4 */}
+        <script async src={`https://www.googletagmanager.com/gtag/js?id=${SITE.ga4Id}`} />
         <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', '${SITE.ga4Id}', { anonymize_ip: true });`,
+          }}
         />
+
+        {/* PWA registration */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `if ('serviceWorker' in navigator) { window.addEventListener('load', function () { navigator.serviceWorker.register('${SITE.swPath}').catch(function () {}); }); }`,
+          }}
+        />
+
+        {/* Theme bootstrap (no-flash) */}
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -147,6 +245,19 @@ export default async function LocaleLayout({
             `,
           }}
         />
+
+        {/* Structured data: TouristAttraction entity */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+        {/* Structured data: localized FAQPage (rich results) */}
+        {faqLd.mainEntity.length > 0 && (
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }}
+          />
+        )}
       </head>
       <body className="min-h-screen">
         <NextIntlClientProvider messages={messages}>

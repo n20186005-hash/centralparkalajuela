@@ -33,8 +33,8 @@ export default function Header() {
           Central Park Alajuela
         </a>
 
-        <nav className="hidden md:flex items-center gap-6">
-          {(['gallery', 'reviews', 'map'] as const).map((section) => (
+        <nav className="hidden md:flex items-center gap-5">
+          {(['hours', 'gallery', 'reviews', 'faq', 'map'] as const).map((section) => (
             <a
               key={section}
               href={`/${locale}/#${section}`}

@@ -10,7 +10,7 @@ export default function Hero() {
       <div className="absolute inset-0">
         <img
           src="/gallery/central-park-alajuela-1.jpg"
-          alt="Central Park Alajuela"
+          alt={t('imageAlt')}
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0" style={{ background: 'var(--hero-overlay)' }} />

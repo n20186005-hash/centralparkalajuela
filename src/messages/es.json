@@ -1,20 +1,154 @@
 {
   "meta": {
-    "title": "Parque Central de Alajuela | Central Park Alajuela",
-    "description": "Explora el Parque Central de Alajuela en la provincia de Alajuela, Costa Rica. Un hermoso parque urbano ubicado en el corazón de la ciudad de Alajuela, ideal para relajarse y experimentar la cultura local."
+    "title": "Parque Central de Alajuela (Central Park) | Alajuela, Costa Rica",
+    "description": "Parque urbano gratuito y abierto 24 horas en el corazón de Alajuela, Costa Rica. Mapa de ubicación, horarios, qué ver (quiosco, Catedral) y consejos de viaje.",
+    "keywords": [
+      "Parque Central de Alajuela",
+      "Central Park Alajuela",
+      "Parque Central de Alajuela Costa Rica",
+      "parque central de Alajuela",
+      "Catedral de Alajuela",
+      "qué hacer en Alajuela",
+      "parque cerca del aeropuerto SJO"
+    ],
+    "ogTitle": "Parque Central de Alajuela (Central Park Alajuela) | Guía de Alajuela, Costa Rica",
+    "ogDescription": "Guía oficial de visitantes del Parque Central de Alajuela (Central Park Alajuela) en Alajuela, Provincia de Alajuela, Costa Rica.",
+    "ogImageAlt": "Parque Central de Alajuela (Central Park Alajuela) - Vista principal en Alajuela, Costa Rica"
+  },
+  "weather": {
+    "title": "El clima en el Parque Central de Alajuela",
+    "subtitle": "Condiciones actuales y pronóstico para el centro de Alajuela, Costa Rica",
+    "feelsLike": "Sensación",
+    "wind": "Viento",
+    "rainShort": "Lluvia",
+    "high": "Máx",
+    "low": "Mín",
+    "forecastTitle": "Pronóstico de los próximos días",
+    "today": "Hoy",
+    "unavailable": "No se han podido cargar los datos del tiempo ahora mismo. Inténtalo de nuevo en unos minutos.",
+    "updated": "Actualizado",
+    "conditions": {
+      "clear": "Despejado",
+      "partly": "Parcialmente nublado",
+      "cloudy": "Nublado",
+      "fog": "Niebla",
+      "drizzle": "Llovizna",
+      "rain": "Lluvia",
+      "snow": "Nieve",
+      "storm": "Tormenta"
+    },
+    "uv": "UV",
+    "advice": {
+      "heading": "Consejos para tu visita",
+      "auto": "Generados automáticamente según el tiempo actual",
+      "tagRisk": "Riesgo",
+      "tagPlan": "Qué hacer",
+      "tagOutfit": "Cómo vestir",
+      "tagGear": "Qué llevar",
+      "riskStorm": "Tormenta eléctrica: evita zonas abiertas, árboles altos y estructuras metálicas mientras paseas.",
+      "riskHeavyRain": "Lluvia intensa: reduce el tiempo al aire libre y evita zonas que se encharcan.",
+      "riskWind": "Viento fuerte: aléjate de árboles grandes y estructuras con toldos o lonas.",
+      "planIndoorRain": "Si llueve, camina por pasillos cubiertos o entra en un café cercano mientras escampa.",
+      "planRainProb": "La lluvia es muy probable hoy: conviene tener un plan bajo techo por si acaso.",
+      "planLightRain": "Lluvia fina o llovizna: perfecta para un paseo corto, con cuidado en el suelo mojado.",
+      "planAvoidMidday": "Evita caminar bajo el sol entre las 11:00 y las 15:00.",
+      "planFog": "Niebla: la visibilidad es limitada; quédate en las zonas abiertas del parque.",
+      "planNiceDay": "Ideal para pasear, descansar en los bancos al aire libre y tomar fotos hoy.",
+      "outfitWarm": "Ropa ligera y transpirable; a mediodía el calor se nota.",
+      "outfitLayers": "Viste en capas: las noches y primeras horas son frescas.",
+      "gearUmbrella": "Paraguas compacto",
+      "gearRaincoat": "Impermeable ligero",
+      "gearHydrate": "Agua extra",
+      "gearSun": "Protector solar, gorra y gafas de sol",
+      "gearWindHat": "Sujeta bien gorra, sombrero o prendas sueltas"
+    },
+    "mountainNote": "Datos del centro de Alajuela. Si subes al Volcán Poás o a las cataratas cercanas, hace más frío y el clima cambia rápido."
+  },
+  "facilities": {
+    "title": "Servicios y comodidades cerca del parque",
+    "intro": "Aseos (WC), aparcamiento, dónde comer, dónde dormir, compras diarias, combustible y carga eléctrica: a continuación ofrecemos un repaso neutral, por categorías, de los servicios cotidianos alrededor del Parque Central de Alajuela. Como sitio divulgativo sin ánimo de lucro no recomendamos ningún negocio concreto; la disponibilidad, los horarios y los precios dependen siempre de la situación real sobre el terreno.",
+    "tipTitle": "Consejo práctico",
+    "tip": "La mayoría de los puntos de interés alrededor del parque están a poca distancia a pie. Para visitas muy temprano o de noche, es preferible llegar a la plaza en taxi oficial o mediante una aplicación de transporte.",
+    "items": [
+      {
+        "id": "restrooms",
+        "title": "Aseos públicos (WC)",
+        "body": "El Parque Central de Alajuela es un espacio público abierto y normalmente no hay baños dentro del propio parque. A poca distancia a pie suele haber aseos públicos en los edificios e instalaciones de los alrededores (busca la señalización habitual de WC); ten en cuenta que algunos son solo para clientes.",
+        "tags": [
+          "Aseos públicos (WC)",
+          "Locales y comercios cercanos",
+          "Edificios e instituciones públicas"
+        ]
+      },
+      {
+        "id": "parking",
+        "title": "Aparcamiento",
+        "body": "Cerca de la plaza el aparcamiento suele ser de corta duración: plazas en la calle con parquímetro, parkings públicos y garajes privados de pago. En horas punta y fines de semana el espacio escasea; muchos visitantes prefieren llegar en taxi, autobús o transporte por aplicación.",
+        "tags": [
+          "Plazas en la calle (parquímetro)",
+          "Parkings públicos y privados",
+          "Taxi / autobús / app"
+        ]
+      },
+      {
+        "id": "dining",
+        "title": "Dónde comer (tipos, no marcas)",
+        "body": "A pocos minutos a pie encontrarás las típicas sodas costarricenses (pequeños restaurantes familiares), restaurantes informales, cafeterías y panaderías, comida rápida y, a dos o tres manzanas, el tradicional Mercado Central con puestos de comida, ideal para probar el casado y los zumos de frutas tropicales.",
+        "tags": [
+          "Sodas y restaurantes familiares",
+          "Cafeterías y panaderías",
+          "Puestos del Mercado Central",
+          "Opciones vegetarianas"
+        ]
+      },
+      {
+        "id": "hotels",
+        "title": "Dónde alojarse",
+        "body": "Cerca del parque hay hoteles del centro de la ciudad, hoteles boutique, hostales, casas de huéspedes y alquileres vacacionales. Al estar el parque a solo 5-10 minutos del aeropuerto Juan Santamaría (SJO), los hoteles de la zona del aeropuerto también son cómodos para vuelos tempranos o nocturnos.",
+        "tags": [
+          "Hoteles del centro",
+          "Hostales y casas de huéspedes",
+          "Hoteles cerca del aeropuerto"
+        ]
+      },
+      {
+        "id": "shopping",
+        "title": "Supermercados, farmacia y bancos",
+        "body": "Los servicios cotidianos —supermercados y colmados, tiendas de conveniencia, farmacias, bancos y cajeros— son habituales en las avenidas que llevan a la plaza, normalmente a pocas manzanas. La zona del Mercado Central es la más práctica para las compras de alimentos del día a día.",
+        "tags": [
+          "Supermercados y colmados",
+          "Farmacias",
+          "Bancos y cajeros",
+          "Zona del Mercado Central"
+        ]
+      },
+      {
+        "id": "fuel",
+        "title": "Combustible y carga eléctrica",
+        "body": "Las estaciones de servicio se encuentran en las avenidas principales de Alajuela y en la carretera del aeropuerto, más que en el mismo centro peatonal, con surtidores con servicio y de autoservicio. Los puntos de carga para vehículos eléctricos son todavía escasos: consulta la cobertura actual con tu empresa de alquiler o una aplicación de mapas de carga.",
+        "tags": [
+          "Surtidores en vías principales",
+          "Con servicio y autoservicio",
+          "Carga eléctrica (aún limitada)"
+        ]
+      }
+    ]
   },
   "header": {
     "home": "Inicio",
     "gallery": "Galería",
     "reviews": "Reseñas",
     "map": "Mapa",
-    "backToHome": "Volver al Inicio"
+    "backToHome": "Volver al Inicio",
+    "hours": "Horarios",
+    "faq": "FAQ"
   },
   "hero": {
-    "title": "Parque Central de Alajuela",
+    "title": "Parque Central de Alajuela (Central Park Alajuela)",
     "subtitle": "Parque Central de Alajuela | La Ciudad de los Mangos, Costa Rica",
+    "imageAlt": "Parque Central de Alajuela (Central Park Alajuela) - Vista principal en Alajuela, Costa Rica",
     "rating": "4.4",
-    "reviewCount": "5,873",
+    "reviewCount": "5,919",
     "hours": "Parque Urbano",
     "openMaps": "Ver Mapa y Navegación",
     "downloadGuide": "Descargar Guía Peatonal"
@@ -22,6 +156,16 @@
   "intro": {
     "title": "Explora el Parque Central de Alajuela",
     "description": "El Parque Central de Alajuela se encuentra en el corazón de la ciudad de Alajuela, Provincia de Alajuela, Costa Rica. Es un hermoso parque urbano e ideal para que los residentes locales y los turistas se relajen y disfruten. Rodeado de hermosos paisajes y una ubicación privilegiada, es un excelente lugar para experimentar la cultura local de Alajuela y su alta calidad de vida.",
+    "semantic": {
+      "welcome": "Bienvenido al **Parque Central de Alajuela**, ampliamente reconocido como **Central Park Alajuela**. Ubicado en el corazón de **Alajuela**, **Provincia de Alajuela**, **Costa Rica**, este destino es un punto de partida esencial para los viajeros que visitan la región.",
+      "geoChain": [
+        "Parque Central de Alajuela",
+        "Alajuela",
+        "Provincia de Alajuela",
+        "Costa Rica"
+      ],
+      "landmarks": "Al visitar el **Parque Central de Alajuela (Central Park Alajuela)**, los visitantes pueden explorar fácilmente los monumentos históricos y puntos de interés cercanos, incluyendo la **Catedral de Alajuela (Catedral de la Virgen del Pilar)** y el **Museo Histórico Cultural Juan Santamaría**."
+    },
     "visitGuide": {
       "title": "Itinerario de un Día en el Parque Central de Alajuela",
       "items": [
@@ -239,12 +383,94 @@
         "rating": 4,
         "text": "Espacio público bien mantenido con un quiosco en el centro. Muy relajante para simplemente sentarse y observar a la gente."
       }
-    ]
+    ],
+    "ratingLabel": "Valoración media en Google Maps",
+    "ratingCountUnit": "reseñas"
   },
   "mapSection": {
     "title": "Ubicación y Mapa",
     "subtitle": "2Q8P+HFR, Provincia de Alajuela, Alajuela, Costa Rica",
-    "openMaps": "Ver en Google Maps"
+    "openMaps": "Ver en Google Maps",
+    "officialPortalTitle": "Información Turística Oficial",
+    "officialPortalLead": "Para información oficial y actualizada sobre la región, visite:",
+    "portalNational": "Instituto Costarricense de Turismo (ICT)",
+    "portalNationalUrl": "https://www.visitcostarica.com/",
+    "portalLocal": "Gobierno Municipal de Alajuela",
+    "portalLocalUrl": "https://www.munialajuela.go.cr/"
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes sobre el Parque Central de Alajuela",
+    "intro": "Respuestas rápidas a las preguntas más comunes de los visitantes sobre el Parque Central de Alajuela (Central Park Alajuela).",
+    "items": [
+      {
+        "q": "¿Dónde se encuentra el Parque Central de Alajuela (Central Park Alajuela)?",
+        "a": "El Parque Central de Alajuela, también conocido como Central Park Alajuela, se ubica en el corazón de la ciudad de Alajuela, Provincia de Alajuela, Costa Rica, junto a la Catedral de Alajuela. Su código Plus de Google Maps es 2Q8P+HFR."
+      },
+      {
+        "q": "¿Es gratis visitar el Parque Central de Alajuela?",
+        "a": "Sí. El Parque Central de Alajuela es un parque urbano público totalmente gratuito, abierto las 24 horas del día, los 7 días de la semana, todo el año."
+      },
+      {
+        "q": "¿Qué tan lejos está el Parque Central de Alajuela del Aeropuerto Internacional Juan Santamaría (SJO)?",
+        "a": "El parque está a solo 5-10 minutos en auto del Aeropuerto Internacional Juan Santamaría (SJO), por lo que es una primera o última parada muy popular en Costa Rica."
+      },
+      {
+        "q": "¿Cuáles son las principales atracciones del Parque Central de Alajuela?",
+        "a": "Dentro del parque se destacan el icónico quiosco octogonal central y la fuente, los mangos centenarios y la fauna como iguanas verdes, pericos frentirrojos y perezosos. Junto al parque están la Catedral de Alajuela y el Museo Histórico Cultural Juan Santamaría."
+      },
+      {
+        "q": "¿Cuál es la mejor época para visitar el Parque Central de Alajuela?",
+        "a": "De día se disfruta de la mejor luz, y de diciembre a abril el clima es más seco. En la mañana temprano se pueden observar perezosos e iguanas, mientras que al atardecer cientos de pericos frentirrojos llegan a dormir al dosel de mangos."
+      },
+      {
+        "q": "¿Cuál es la dirección del Parque Central de Alajuela?",
+        "a": "La dirección oficial del Parque Central de Alajuela en Google Maps es 2Q8P+HFR, Provincia de Alajuela, Alajuela, Costa Rica (código postal 20101)."
+      },
+      {
+        "q": "¿Qué se puede ver alrededor del Parque Central de Alajuela?",
+        "a": "Junto al parque, los visitantes pueden explorar la Catedral de Alajuela (Catedral de la Virgen del Pilar) y el Museo Histórico Cultural Juan Santamaría; a dos cuadras, el Mercado Central ofrece auténtica comida costarricense."
+      },
+      {
+        "q": "¿El Parque Central de Alajuela está abierto de noche?",
+        "a": "Sí. Es un espacio público abierto las 24 horas del día. Como en cualquier parque urbano, se recomienda sentido común y precaución después del anochecer."
+      }
+    ]
+  },
+  "sources": {
+    "title": "Fuentes y Referencias",
+    "intro": "Esta guía para visitantes fue elaborada con información de las siguientes fuentes oficiales y públicas:",
+    "items": [
+      {
+        "name": "Instituto Costarricense de Turismo (Visit Costa Rica)",
+        "url": "https://www.visitcostarica.com/",
+        "note": "Portal oficial de turismo de Costa Rica para planificar su visita."
+      },
+      {
+        "name": "Instituto Costarricense de Turismo (ICT)",
+        "url": "https://www.ict.go.cr/",
+        "note": "Ente oficial del sector turístico de Costa Rica."
+      },
+      {
+        "name": "Gobierno Municipal de Alajuela",
+        "url": "https://www.munialajuela.go.cr/",
+        "note": "Autoridad municipal oficial de la ciudad de Alajuela."
+      },
+      {
+        "name": "Museo Histórico Cultural Juan Santamaría",
+        "url": "https://museojuansantamaria.go.cr/",
+        "note": "Página oficial del museo junto al parque dedicado al héroe nacional."
+      },
+      {
+        "name": "Sistema Nacional de Áreas de Conservación (SINAC)",
+        "url": "https://www.sinac.go.cr/",
+        "note": "Fuente oficial sobre áreas protegidas y vida silvestre de Costa Rica."
+      },
+      {
+        "name": "Parque Central de Alajuela en Google Maps",
+        "url": "https://maps.app.goo.gl/GimLtykHVTQRwsi38",
+        "note": "Ficha oficial en Google Maps con dirección, fotos y reseñas de visitantes."
+      }
+    ]
   },
   "footer": {
     "rights": "© 2026 Parque Central de Alajuela. Todos los derechos reservados.",
@@ -286,7 +512,8 @@
         "url": "https://www.sinac.go.cr/"
       }
     },
-    "disclaimer": "Este sitio web es un proyecto independiente de información turística de terceros. No tenemos afiliación con el gobierno local u otras instituciones oficiales."
+    "disclaimer": "Este sitio web es un proyecto independiente de información turística de terceros. No tenemos afiliación con el gobierno local u otras instituciones oficiales.",
+    "imageCredit": "Créditos de imagen: Todas las imágenes mostradas en este sitio web pertenecen a sus respectivos fotógrafos y se utilizan con pleno respeto a sus derechos de autor."
   },
   "privacy": {
     "title": "Política de Privacidad",
