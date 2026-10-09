@@ -33,7 +33,7 @@ export async function generateMetadata({
   const localeMap: Record<string, string> = {
     zh: 'zh_CN',
     en: 'en_US',
-    es: 'es_MX',
+    es: 'es_CR',
     fr: 'fr_FR',
   };
 
@@ -105,6 +105,8 @@ const jsonLd = {
     SITE.attractionFullName,
     SITE.attractionShortName,
     'Parque Central',
+    'Parque de los Mangos',
+    'Plaza del Benemérito General Guardia',
     'Parc Central d\'Alajuela',
     '阿拉胡埃拉中央公园',
     'Ciudad de los Mangos',

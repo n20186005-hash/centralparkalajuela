@@ -5,7 +5,15 @@ export const dynamic = 'force-static';
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://centralparkalajuela.com';
   const locales = ['es', 'en', 'zh', 'fr'];
-  const routes = ['', '/privacy-policy', '/terms-of-service', '/cookie-settings'];
+  const routes = [
+    '',
+    '/horario-como-llegar',
+    '/que-hacer-cerca',
+    '/fotos',
+    '/privacy-policy',
+    '/terms-of-service',
+    '/cookie-settings',
+  ];
 
   const sitemap: MetadataRoute.Sitemap = [];
 

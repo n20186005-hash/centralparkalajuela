@@ -1,19 +1,21 @@
 {
   "meta": {
-    "title": "Parque Central de Alajuela (Central Park) | Alajuela, Costa Rica",
-    "description": "Parque urbano gratuito y abierto 24 horas en el corazón de Alajuela, Costa Rica. Mapa de ubicación, horarios, qué ver (quiosco, Catedral) y consejos de viaje.",
+    "title": "Parque Central de Alajuela: Horario, Ubicación y Qué Ver",
+    "description": "Visita el Parque Central de Alajuela, conocido como Parque de los Mangos. Consulta horarios, entrada gratuita, ubicación, cómo llegar, fotos y qué ver cerca.",
     "keywords": [
       "Parque Central de Alajuela",
       "Central Park Alajuela",
+      "Parque de los Mangos",
+      "Plaza del Benemérito General Guardia",
       "Parque Central de Alajuela Costa Rica",
       "parque central de Alajuela",
       "Catedral de Alajuela",
       "qué hacer en Alajuela",
       "parque cerca del aeropuerto SJO"
     ],
-    "ogTitle": "Parque Central de Alajuela (Central Park Alajuela) | Guía de Alajuela, Costa Rica",
-    "ogDescription": "Guía oficial de visitantes del Parque Central de Alajuela (Central Park Alajuela) en Alajuela, Provincia de Alajuela, Costa Rica.",
-    "ogImageAlt": "Parque Central de Alajuela (Central Park Alajuela) - Vista principal en Alajuela, Costa Rica"
+    "ogTitle": "Parque Central de Alajuela: Horario, Ubicación y Qué Ver",
+    "ogDescription": "Parque Central de Alajuela (Parque de los Mangos): horarios, entrada gratuita, ubicación, cómo llegar, fotos y qué ver cerca en Alajuela, Costa Rica.",
+    "ogImageAlt": "Parque Central de Alajuela (Parque de los Mangos) - Vista principal en Alajuela, Costa Rica"
   },
   "weather": {
     "title": "El clima en el Parque Central de Alajuela",
@@ -144,11 +146,11 @@
     "faq": "FAQ"
   },
   "hero": {
-    "title": "Parque Central de Alajuela (Central Park Alajuela)",
-    "subtitle": "Parque Central de Alajuela | La Ciudad de los Mangos, Costa Rica",
-    "imageAlt": "Parque Central de Alajuela (Central Park Alajuela) - Vista principal en Alajuela, Costa Rica",
+    "title": "Parque Central de Alajuela – Guía para Visitantes",
+    "subtitle": "Parque Central de Alajuela (Parque de los Mangos) | Alajuela, Costa Rica",
+    "imageAlt": "Parque Central de Alajuela (Parque de los Mangos) - Vista principal en Alajuela, Costa Rica",
     "rating": "4.4",
-    "reviewCount": "5,919",
+    "reviewCount": "5,934",
     "hours": "Parque Urbano",
     "openMaps": "Ver Mapa y Navegación",
     "downloadGuide": "Descargar Guía Peatonal"
@@ -334,56 +336,8 @@
     "title": "Reseñas de Visitantes",
     "declaration": "La información de las reseñas se puede ver a través de Google Maps (enlace externo).",
     "moreReviews": "Ver Más Reseñas en Google Maps",
-    "items": [
-      {
-        "name": "Sarah W.",
-        "date": "Recientemente",
-        "rating": 5,
-        "text": "¡La primera parada perfecta muy cerca del aeropuerto! Hay enormes árboles de mango en el parque, e incluso vimos un lindo perezoso en las ramas."
-      },
-      {
-        "name": "David M.",
-        "date": "Recientemente",
-        "rating": 5,
-        "text": "Un centro donde se reúnen los lugareños, muy animado. Las campanas de la catedral y las palomas en la plaza te hacen sentir muy relajado."
-      },
-      {
-        "name": "María José",
-        "date": "Hace 1 mes",
-        "rating": 5,
-        "text": "Hermoso parque con un entorno agradable. Muy cerca de la catedral, una visita obligada al recorrer Alajuela."
-      },
-      {
-        "name": "Carlos A.",
-        "date": "Hace 2 meses",
-        "rating": 5,
-        "text": "Bello lugar precioso y tranquilo. Es antiguo, tradicional, es muy tranquilo y es la vida en Alajuela."
-      },
-      {
-        "name": "Ana V.",
-        "date": "Hace 3 meses",
-        "rating": 4,
-        "text": "Un gran parque en el centro de Alajuela, con árboles de mango que brindan una sombra cómoda. Perfecto para tomar un descanso."
-      },
-      {
-        "name": "Roberto G.",
-        "date": "Hace más de 6 meses",
-        "rating": 5,
-        "text": "Un lugar muy bonito y rico en historia. Local bien conservado y limpio. Gran circulación de personas. Bella biblioteca y catedral."
-      },
-      {
-        "name": "Elena R.",
-        "date": "Hace 1 año",
-        "rating": 5,
-        "text": "Bonito lugar, con espectáculos improvisados. Genial para caminar y sentir la auténtica vibra costarricense."
-      },
-      {
-        "name": "Luis F.",
-        "date": "Recientemente",
-        "rating": 4,
-        "text": "Espacio público bien mantenido con un quiosco en el centro. Muy relajante para simplemente sentarse y observar a la gente."
-      }
-    ],
+    "verifiedNote": "Valoración verificada en octubre de 2026 según Google Maps.",
+    "items": [],
     "ratingLabel": "Valoración media en Google Maps",
     "ratingCountUnit": "reseñas"
   },
@@ -611,7 +565,26 @@
   },
   "officialManagement": {
     "title": "Sobre el Parque Central de Alajuela",
-    "text": "El Parque Central de Alajuela no es solo el centro geográfico de la ciudad, sino también su latido cultural. Alajuela es conocida como la \"Ciudad de los Mangos\", y este parque está lleno de exuberantes árboles de mango centenarios. Aquí, no solo puede disfrutar de la belleza del clásico quiosco central y la fuente, sino también experimentar de cerca la rica ecología de Costa Rica: observe de cerca el dosel y a menudo podrá ver iguanas tranquilas, ardillas e incluso algún perezoso visitante ocasional.\n\nCombinado con la majestuosa Catedral de Alajuela (Catedral de la Virgen del Pilar) y el Museo Histórico Cultural Juan Santamaría en los alrededores, este es el mejor punto de partida para experimentar el auténtico sabor costarricense (Pura Vida) y su historia nacional. Además, al estar a solo 5-10 minutos en coche del Aeropuerto Internacional SJO, se ha convertido en la primera parada para innumerables turistas internacionales que llegan a Costa Rica."
+    "text": "El Parque Central de Alajuela no es solo el centro geográfico de la ciudad, sino también su latido cultural. Alajuela es conocida como la \"Ciudad de los Mangos\", y este parque —también llamado Parque de los Mangos y, oficialmente, Plaza del Benemérito General Guardia— está lleno de exuberantes árboles de mango centenarios. Aquí, no solo puede disfrutar de la belleza del clásico quiosco central y la fuente, sino también experimentar de cerca la rica ecología de Costa Rica: observe de cerca el dosel y a menudo podrá ver iguanas tranquilas, ardillas e incluso algún perezoso visitante ocasional.\n\nCombinado con la majestuosa Catedral de Alajuela (Catedral de la Virgen del Pilar) y el Museo Histórico Cultural Juan Santamaría en los alrededores, este es el mejor punto de partida para experimentar el auténtico sabor costarricense (Pura Vida) y su historia nacional. Además, al estar a solo 5-10 minutos en coche del Aeropuerto Internacional SJO, se ha convertido en la primera parada para innumerables turistas internacionales que llegan a Costa Rica."
+  },
+  "topics": {
+    "sectionTitle": "Guías para planificar tu visita",
+    "sectionSubtitle": "Páginas enfocadas en las preguntas más frecuentes: horarios, cómo llegar, qué ver cerca y fotos.",
+    "horarioComoLlegar": {
+      "crumb": "Horario y cómo llegar",
+      "title": "Horario y Cómo Llegar al Parque Central de Alajuela",
+      "intro": "Todo lo que necesitas para planear tu visita: apertura 24 horas, entrada gratuita, cómo llegar desde el aeropuerto SJO, opciones de transporte y dónde estacionar."
+    },
+    "queHacerCerca": {
+      "crumb": "Qué ver cerca",
+      "title": "Qué Ver y Hacer Cerca del Parque Central de Alajuela",
+      "intro": "Una ruta a pie por el corazón de Alajuela: la Catedral, el Museo Juan Santamaría, el Mercado Central y la fauna del parque."
+    },
+    "fotos": {
+      "crumb": "Fotos",
+      "title": "Fotos del Parque Central de Alajuela",
+      "intro": "Galería de imágenes del Parque Central de Alajuela: el quiosco, los mangos centenarios, la fauna y la Plaza del Benemérito General Guardia."
+    }
   },
   "historyTimeline": {
     "title": "Historia del Parque Central de Alajuela",
@@ -654,7 +627,7 @@
       },
       {
         "title": "Evolución Espacial: De la 'Plaza de Armas' a un Oasis Renacentista",
-        "text": "A finales del siglo XIX, inspirada por el liberalismo y la modernización europeos, la municipalidad plantó los mangos —hoy gigantes milenarios— por toda la plaza y construyó el icónico quiosco octogonal con cúpula."
+        "text": "A finales del siglo XIX, inspirada por el liberalismo y la modernización europeos, la municipalidad plantó los mangos —hoy gigantes centenarios— por toda la plaza y construyó el icónico quiosco octagonal con cúpula."
       },
       {
         "title": "Feria del Mango: Una Fiesta Ciudadana, Junio–Julio",

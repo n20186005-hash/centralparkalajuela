@@ -1,25 +1,6 @@
 import { useTranslations, useMessages, useLocale } from 'next-intl';
 import { SITE } from '@/lib/site';
 
-function Stars({ count }: { count: number }) {
-  return (
-    <div className="flex gap-0.5">
-      {[1, 2, 3, 4, 5].map((i) => (
-        <svg
-          key={i}
-          width="14"
-          height="14"
-          viewBox="0 0 24 24"
-          fill={i <= count ? '#f0b429' : 'var(--border-color)'}
-          stroke="none"
-        >
-          <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
-        </svg>
-      ))}
-    </div>
-  );
-}
-
 export default function Reviews() {
   const t = useTranslations('reviews');
   const locale = useLocale();
@@ -28,12 +9,7 @@ export default function Reviews() {
   const reviewTotal = new Intl.NumberFormat(locale, { useGrouping: true }).format(
     parseInt(SITE.reviewCount.replace(/[^\d]/g, ''), 10) || 0
   );
-  const items = (messages?.reviews?.items || []) as Array<{
-    name: string;
-    date: string;
-    rating: number;
-    text: string;
-  }>;
+  const verifiedNote = t('verifiedNote');
 
   return (
     <section id="reviews" className="section-padding">
@@ -87,45 +63,12 @@ export default function Reviews() {
           </a>
         </div>
 
-        <div className="grid sm:grid-cols-2 gap-4 sm:gap-6 mb-8">
-          {items.map((review, i) => (
-            <div
-              key={i}
-              className="rounded-xl p-5 sm:p-6 transition-shadow hover:shadow-md"
-              style={{
-                background: 'var(--card-bg)',
-                boxShadow: 'var(--card-shadow)',
-                border: '1px solid var(--border-color)',
-              }}
-            >
-              <div className="flex items-start justify-between mb-3">
-                <div>
-                  <div className="flex items-center gap-2 mb-1">
-                    <div
-                      className="w-8 h-8 rounded-full flex items-center justify-center text-sm font-semibold text-white"
-                      style={{ background: 'var(--accent)' }}
-                    >
-                      {review.name.charAt(0)}
-                    </div>
-                    <span
-                      className="text-sm font-semibold"
-                      style={{ color: 'var(--text-primary)' }}
-                    >
-                      {review.name}
-                    </span>
-                  </div>
-                </div>
-                <span className="text-xs" style={{ color: 'var(--text-muted)' }}>
-                  {review.date}
-                </span>
-              </div>
-              <Stars count={review.rating} />
-              <p className="text-sm mt-3 leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
-                {review.text}
-              </p>
-            </div>
-          ))}
-        </div>
+        <p
+          className="text-xs text-center mb-8"
+          style={{ color: 'var(--text-muted)' }}
+        >
+          {verifiedNote}
+        </p>
 
         {/* More reviews link — arrow only */}
         <div className="flex justify-center">

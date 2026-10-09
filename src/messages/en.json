@@ -1,19 +1,20 @@
 {
   "meta": {
-    "title": "Central Park Alajuela (Parque Central) | Alajuela, Costa Rica",
-    "description": "Free 24-hour city park in the heart of Alajuela, Costa Rica. Map, opening hours, what to see (kiosk, cathedral) and SJO airport travel tips.",
+    "title": "Central Park Alajuela: Hours, Location & What to See",
+    "description": "Visit Central Park Alajuela, also known as Parque de los Mangos. Check opening hours, free entry, location, how to get there, photos and what to see nearby.",
     "keywords": [
       "Central Park Alajuela",
       "Parque Central de Alajuela",
+      "Parque de los Mangos",
       "Central Park Alajuela Costa Rica",
       "Alajuela Central Park",
       "Alajuela Cathedral",
       "park near SJO airport",
       "things to do in Alajuela"
     ],
-    "ogTitle": "Central Park Alajuela (Parque Central de Alajuela) - Alajuela, Costa Rica",
-    "ogDescription": "Official visitor guide to Parque Central de Alajuela (Central Park Alajuela) in Alajuela, Alajuela Province, Costa Rica.",
-    "ogImageAlt": "Central Park Alajuela (Parque Central de Alajuela) - Main view in Alajuela, Costa Rica"
+    "ogTitle": "Central Park Alajuela: Hours, Location & What to See",
+    "ogDescription": "Central Park Alajuela (Parque de los Mangos): opening hours, free entry, location, how to get there, photos and what to see nearby in Alajuela, Costa Rica.",
+    "ogImageAlt": "Central Park Alajuela (Parque de los Mangos) - Main view in Alajuela, Costa Rica"
   },
   "weather": {
     "title": "Live Weather at Central Park Alajuela",
@@ -148,7 +149,7 @@
     "subtitle": "Central Park Alajuela | The City of Mangoes, Costa Rica",
     "imageAlt": "Central Park Alajuela (Parque Central de Alajuela) - Main view in Alajuela, Costa Rica",
     "rating": "4.4",
-    "reviewCount": "5,919",
+    "reviewCount": "5,934",
     "hours": "Urban Park",
     "openMaps": "View Map Navigation",
     "downloadGuide": "Download Walking Guide"
@@ -334,56 +335,8 @@
     "title": "Visitor Reviews",
     "declaration": "Review information can be viewed via Google Maps (external link).",
     "moreReviews": "View More Reviews on Google Maps",
-    "items": [
-      {
-        "name": "Sarah W.",
-        "date": "Recently",
-        "rating": 5,
-        "text": "The perfect first stop very close to the airport! There are giant mango trees in the park, and we even saw a cute sloth on the branches."
-      },
-      {
-        "name": "David M.",
-        "date": "Recently",
-        "rating": 5,
-        "text": "A center where locals gather, very lively. The cathedral bells and pigeons in the square make you feel very relaxed."
-      },
-      {
-        "name": "María José",
-        "date": "1 month ago",
-        "rating": 5,
-        "text": "Beautiful park with nice surroundings. Very close to the cathedral, a must-visit when touring Alajuela."
-      },
-      {
-        "name": "Carlos A.",
-        "date": "2 months ago",
-        "rating": 5,
-        "text": "Beautiful, precious and quiet place. Old and traditional, it truly reflects life in Alajuela."
-      },
-      {
-        "name": "Ana V.",
-        "date": "3 months ago",
-        "rating": 4,
-        "text": "Great city park with giant mango trees providing comfortable shade. Perfect for taking a break."
-      },
-      {
-        "name": "Roberto G.",
-        "date": "Over 6 months ago",
-        "rating": 5,
-        "text": "A very beautiful place rich in history. Very clean with a lot of people. There's a beautiful library and cathedral next to it."
-      },
-      {
-        "name": "Elena R.",
-        "date": "1 year ago",
-        "rating": 5,
-        "text": "Nice place, often with improvised shows. Great for walking around and feeling the authentic Costa Rican vibe."
-      },
-      {
-        "name": "Luis F.",
-        "date": "Recently",
-        "rating": 4,
-        "text": "Well-maintained public space with a kiosk in the center. Very relaxing to just sit and people-watch."
-      }
-    ],
+    "verifiedNote": "Rating verified in October 2026 according to Google Maps.",
+    "items": [],
     "ratingLabel": "Average rating on Google Maps",
     "ratingCountUnit": "reviews"
   },
@@ -611,7 +564,26 @@
   },
   "officialManagement": {
     "title": "About Parque Central de Alajuela",
-    "text": "Parque Central de Alajuela is not only the geographic center of the city but also its cultural heartbeat. Alajuela is known as the \"City of Mangoes\" (Ciudad de los Mangos), and this park is filled with lush century-old mango trees. Here, you can not only enjoy the beauty of the classic central kiosk and fountain but also experience Costa Rica's rich ecology up close—look closely at the canopy, and you can often spot leisurely iguanas, squirrels, and even the occasional visiting sloth.\n\nCombined with the majestic Alajuela Cathedral (Catedral de la Virgen del Pilar) and the Juan Santamaría Historical and Cultural Museum nearby, this is the best starting point to experience authentic Costa Rican flavor (Pura Vida) and its national history. Moreover, being only a 5-10 minute drive from the SJO International Airport, it has become the first stop for countless international tourists arriving in Costa Rica."
+    "text": "Parque Central de Alajuela is not only the geographic center of the city but also its cultural heartbeat. Alajuela is known as the \"City of Mangoes\" (Ciudad de los Mangos), and this park — also called Parque de los Mangos and, officially, Plaza del Benemérito General Guardia — is filled with lush century-old mango trees. Here, you can not only enjoy the beauty of the classic central kiosk and fountain but also experience Costa Rica's rich ecology up close—look closely at the canopy, and you can often spot leisurely iguanas, squirrels, and even the occasional visiting sloth.\n\nCombined with the majestic Alajuela Cathedral (Catedral de la Virgen del Pilar) and the Juan Santamaría Historical and Cultural Museum nearby, this is the best starting point to experience authentic Costa Rican flavor (Pura Vida) and its national history. Moreover, being only a 5-10 minute drive from the SJO International Airport, it has become the first stop for countless international tourists arriving in Costa Rica."
+  },
+  "topics": {
+    "sectionTitle": "Guides to plan your visit",
+    "sectionSubtitle": "Pages focused on the most common questions: hours, how to get there, what to see nearby and photos.",
+    "horarioComoLlegar": {
+      "crumb": "Hours & getting there",
+      "title": "Hours & How to Get to Central Park Alajuela",
+      "intro": "Everything you need to plan your visit: 24-hour opening, free entry, how to get from SJO airport, transport options and where to park."
+    },
+    "queHacerCerca": {
+      "crumb": "What to see nearby",
+      "title": "What to See & Do Near Central Park Alajuela",
+      "intro": "A walking route through the heart of Alajuela: the Cathedral, the Juan Santamaría Museum, the Central Market and the park's wildlife."
+    },
+    "fotos": {
+      "crumb": "Photos",
+      "title": "Photos of Central Park Alajuela",
+      "intro": "Image gallery of Central Park Alajuela: the kiosk, century-old mango trees, wildlife and the Plaza del Benemérito General Guardia."
+    }
   },
   "historyTimeline": {
     "title": "History of Alajuela Central Park",

@@ -10,6 +10,9 @@ export const routing = defineRouting({
     '/privacy-policy': '/privacy-policy',
     '/terms-of-service': '/terms-of-service',
     '/cookie-settings': '/cookie-settings',
+    '/horario-como-llegar': '/horario-como-llegar',
+    '/que-hacer-cerca': '/que-hacer-cerca',
+    '/fotos': '/fotos',
   },
 });
 

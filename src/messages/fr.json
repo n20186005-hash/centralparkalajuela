@@ -152,7 +152,7 @@
     "subtitle": "Central Park Alajuela | La Ville des Mangues, Costa Rica",
     "imageAlt": "Parc Central d'Alajuela (Central Park Alajuela / Parque Central de Alajuela) - Vue principale à Alajuela, Costa Rica",
     "rating": "4.4",
-    "reviewCount": "5,919",
+    "reviewCount": "5,934",
     "hours": "Parc urbain",
     "openMaps": "Voir le plan et l'itinéraire",
     "downloadGuide": "Télécharger le guide de visite à pied"
@@ -338,56 +338,8 @@
     "title": "Avis des visiteurs",
     "declaration": "Les avis sont consultables sur Google Maps (lien externe).",
     "moreReviews": "Voir plus d'avis sur Google Maps",
-    "items": [
-      {
-        "name": "Sarah W.",
-        "date": "Récemment",
-        "rating": 5,
-        "text": "La première étape parfaite, tout près de l'aéroport ! Le parc est planté d'immenses manguiers et nous avons même aperçu un adorable paresseux dans les branches."
-      },
-      {
-        "name": "David M.",
-        "date": "Récemment",
-        "rating": 5,
-        "text": "Un lieu où les habitants se retrouvent, très vivant. Les cloches de la cathédrale et les pigeons de la place invitent à la détente."
-      },
-      {
-        "name": "María José",
-        "date": "Il y a 1 mois",
-        "rating": 5,
-        "text": "Magnifique parc dans un cadre agréable. Tout près de la cathédrale, une visite incontournable quand on parcourt Alajuela."
-      },
-      {
-        "name": "Carlos A.",
-        "date": "Il y a 2 mois",
-        "rating": 5,
-        "text": "Un lieu magnifique, précieux et paisible. Ancien et traditionnel, il reflète véritablement la vie d'Alajuela."
-      },
-      {
-        "name": "Ana V.",
-        "date": "Il y a 3 mois",
-        "rating": 4,
-        "text": "Un très beau parc urbain avec d'immenses manguiers qui offrent une ombre agréable. Parfait pour faire une pause."
-      },
-      {
-        "name": "Roberto G.",
-        "date": "Il y a plus de 6 mois",
-        "rating": 5,
-        "text": "Un très bel endroit riche en histoire. Très propre et très fréquenté. Il y a une belle bibliothèque et la cathédrale juste à côté."
-      },
-      {
-        "name": "Elena R.",
-        "date": "Il y a 1 an",
-        "rating": 5,
-        "text": "Bel endroit, souvent animé de spectacles improvisés. Parfait pour se promener et ressentir l'authentique ambiance costaricienne."
-      },
-      {
-        "name": "Luis F.",
-        "date": "Récemment",
-        "rating": 4,
-        "text": "Un espace public bien entretenu avec un kiosque au centre. On s'assoit et on regarde passer les gens : très reposant."
-      }
-    ],
+    "items": [],
+    "verifiedNote": "Note vérifiée en octobre 2026 d'après Google Maps.",
     "ratingLabel": "Note moyenne sur Google Maps",
     "ratingCountUnit": "avis"
   },
@@ -616,6 +568,25 @@
   "officialManagement": {
     "title": "À propos du Parque Central de Alajuela",
     "text": "Le Parc Central d'Alajuela n'est pas seulement le centre géographique de la ville, c'en est aussi le pouls culturel. Alajuela est surnommée la « Ville des Mangues » (Ciudad de los Mangos) et le parc est planté de luxuriants manguiers centenaires. Ici, vous pouvez non seulement admirer le kiosque central classique et la fontaine, mais aussi découvrir de près la riche écologie du Costa Rica — observez bien la frondaison : vous y verrez souvent des iguanes paisibles, des écureuils, et même un paresseux de passage.\n\nAvec la majestueuse Cathédrale d'Alajuela (Catedral de la Virgen del Pilar) et le Musée historique et culturel Juan Santamaría à proximité, c'est le meilleur point de départ pour vivre l'authentique esprit « Pura Vida » et découvrir l'histoire nationale. Et comme il n'est qu'à 5-10 minutes en voiture de l'aéroport international SJO, il est devenu la première étape d'innombrables voyageurs internationaux qui arrivent au Costa Rica."
+  },
+  "topics": {
+    "sectionTitle": "Guides pour préparer votre visite",
+    "sectionSubtitle": "Des pages centrées sur les questions fréquentes : horaires, accès, que voir autour et photos.",
+    "horarioComoLlegar": {
+      "crumb": "Horaires et accès",
+      "title": "Horaires et accès du Parque Central d'Alajuela",
+      "intro": "Tout ce qu'il faut pour préparer votre visite : ouverture 24h, entrée gratuite, accès depuis l'aéroport SJO, transports et stationnement."
+    },
+    "queHacerCerca": {
+      "crumb": "À voir autour",
+      "title": "Que voir et faire près du Parque Central d'Alajuela",
+      "intro": "Un itinéraire piéton dans le cœur d'Alajuela : la cathédrale, le musée Juan Santamaría, le marché central et la faune du parc."
+    },
+    "fotos": {
+      "crumb": "Photos",
+      "title": "Photos du Parque Central d'Alajuela",
+      "intro": "Galerie d'images du Parque Central d'Alajuela : le kiosque, les manguiers centenaires, la faune et la Plaza del Benemérito General Guardia."
+    }
   },
   "historyTimeline": {
     "title": "Histoire du Parc Central d'Alajuela",

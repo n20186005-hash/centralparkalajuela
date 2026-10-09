@@ -151,15 +151,11 @@ export default function WeatherLive({ initial }: { initial: WeatherData | null }
   const weekdayFmt = new Intl.DateTimeFormat(locale === 'zh' ? 'zh-CN' : locale, {
     weekday: 'short',
   });
-  const shortDateFmt = new Intl.DateTimeFormat(locale === 'zh' ? 'zh-CN' : locale, {
-    month: 'numeric',
-    day: 'numeric',
-  });
 
   const labelDay = (d: WeatherDay, i: number) => {
     if (i === 0) return t('today');
     const dt = new Date(d.date + 'T12:00:00');
-    return `${weekdayFmt.format(dt)} ${shortDateFmt.format(dt)}`;
+    return `${weekdayFmt.format(dt)}`;
   };
 
   const metric = (label: string, value: string | null) => (
